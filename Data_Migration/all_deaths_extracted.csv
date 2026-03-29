@@ -1,0 +1,659 @@
+SNo,Date,Day,Month,Year,Time,Lat,Long,Name,Aadhar,Occupation,Gender,Age,District,Mandal,Village,Habitation,Location_Type,Economic_Status,Next_Kin
+1.0,10-04-2015,4,10,2015,,,,Smt. Adapa Narasamma,,,Female,,West Godavari,koyyalagudem,Ramanujapuram,,Open area,BPL,
+2.0,03-16-2018,16,3,2018,,15.5965,79.8854,Kalucharan Bisoye,,,Male,34.0,Prakasam,Chimakurthy,,R.L.Puram,Open area,,
+3,03-16-2018,16,3,2018,,15.5965,79.8854,Bramar Peth,,,Male,43.0,Prakasam,Chimakurthy,,R.L.Puram,Open area,,
+4,04-02-2018,2,4,2018,,14.141906,77.983371,M.Amaramma,,,Female,45.0,Sri Sathya Sai,Nallamada,,Pemanakuntapalli,Open area,,
+5,04-02-2018,2,4,2018,,14.141906,77.983371,Lakshmi devi,,,Female,30.0,Sri Sathya Sai,Nallamada,,Pemanakuntapalli,Open area,,
+6,04-02-2018,2,4,2018,,15.3214,78.14976,Sri.M. Sajanna,,,Male,60.0,Nandyal,Banaganapalli,Patapadu,,Open area,,
+7,04-03-2018,3,4,2018,,14.654267,78.680669,Shaik Khasimbee,,,Female,38.0,YSR Kadapa,Khajipet,Miduthuru,,Open area,,
+8,04-03-2018,3,4,2018,,14.654267,78.680669,Shiak Ayesha,,,Female,18.0,YSR Kadapa,Khajipet,Miduthuru,,Open area,,
+9,04-08-2018,8,4,2018,,15.678363,77.638198,Sri Kuruva Ranganna,,,Male,54.0,kurnool,Gonegandala,,Yerrabadu,Under tree,,
+10,04-16-2018,16,4,2018,,15.2243,77.1435,Gudisili Yerriswamy,,,Male,45.0,kurnool,Halaharvi,Chinthakunta,,Open area,,
+11,04-16-2018,16,4,2018,,15.4783,77.1405,Eediga Sheshanna,,,Male,59.0,kurnool,Holagunda,,Lingampalli,Open area,,
+12,04-18-2018,18,4,2018,,18.523734,83.341608,B.Savitramma,,,Female,60.0,Vizianagaram,Bobbili,,Kottapenta,Open area( Sound),,
+13,04-18-2018,18,4,2018,,18.977345,83.661938,P.Prasad Rao,,,Male,48.0,Parvathipuram Manyam,Gummalakshmi-puram,,Lumbesu,Open area,,
+14,04-20-2018,20,4,2018,,18.17,82.68,Poyya Varalakshmi,,,Female,34.0,Alluri Sitharama Raju,Hukumpeta,Sampangiputtu,,Near House,,
+15,04-20-2018,20,4,2018,,,,Nagole Krishna,,,Male,35.0,NTR,Gampalagudem,Meduru,,Under tree,,
+16,04-22-2018,22,4,2018,,16.235274,79.293608,M.Pandu,,,Male,17.0,Palnadu,Veldurthy,,Devupalli,Open area(Sound),,
+17,04-22-2018,22,4,2018,,15.950559,78.588067,Sri Boya Chinna Usanna,,,Male,45.0,Nandyal,Kothapalle,,B.N Palem,Open area,,
+18,04-24-2018,24,4,2018,,18.5868427,83.6592076,Polukurti Durga Rao,,,Male,45.0,Parvathipuram Manyam,Veeraghattam,Panasanandivada,,Open area,,
+19,04-24-2018,24,4,2018,,18.5245,83.7863,Tara Jayamma,,,Male,42.0,Vizianagaram,Regidi Amadavalasa,Khandyam,,Open area,,
+20,04-24-2018,24,4,2018,,17.954999,83.41949,Dukka Ramayyama,,,Female,50.0,Vizianagaram,Bhogapuram,Rajapulova,,Open area,,
+21,04-24-2018,24,4,2018,,17.954999,83.41949,Murapaala Sravani,,,Female,10.0,Vizianagaram,Bhogapuram,Rajapulova,,Open area,,
+22,04-24-2018,24,4,2018,,18.52259063,83.58688109,Dhakarapu.Aadinarayana,,,Male,35.0,Vizianagaram,Therlam,Sundarada,,Open area,,
+23,04-24-2018,24,4,2018,,18.082815,83.515157,Routhu.Gowrinaidu,,,Male,23.0,Vizianagaram,Poosapatirega,,Rellivalasa,Open area,,
+24,04-24-2018,24,4,2018,,14.573048,79.32183,Battala.Venkataiah,,,Male,70.0,Sri Potti sriramulu Nellore,Ananthasagaram,,Patha Devarayapalle,Open area,,
+25,04-25-2018,25,4,2018,,15.593528,79.258865,Maddasani Chinna,,,Male,40.0,Markapur,Tarlupadu,Nagendla Mudupu,,Open area,,
+26,04-25-2018,25,4,2018,,15.593528,79.258865,Muvva poluraju,,,Male,38.0,Markapur,Tarlupadu,Nagendla Mudupu,,Open area,,
+27,04-25-2018,25,4,2018,,15.813902,79.265377,Gunda Venkat reddy,,,Male,65.0,Markapur,Peddaaraveedu,Gobburu,,Open area(Sound),,
+28,05-01-2018,1,5,2018,,18.62264979,83.51279545,P.Yellamma,,,Female,57.0,Parvathipuram Manyam,Balijipeta,Vengapuram,,Open area,,
+29,05-01-2018,1,5,2018,,18.02578,83.59003,M.Bhuloku,,,Male,21.0,Vizianagaram,Poosapatirega,,Tippalavalasa,Open area,,
+30,05-01-2018,1,5,2018,,18.731127,83.420273,Reddy Simhachalam,,,Male,58.0,Parvathipuram Manyam,Parvathipuram,Venkataraidupeta,,Open area,,
+31,05-01-2018,1,5,2018,,,,Paidipeddi Eswaramma,,,Female,60.0,Srikakulam,Etcherla,Fareedpeta,,Open area,,
+32,05-01-2018,1,5,2018,,16.979248,81.272518,D.Chiranjeevi,,,Male,27.0,Eluru,Dwaraka Tirumala,Dorasanipadu,,Open Area,,
+33,05-01-2018,1,5,2018,,16.087209,80.39087,Seethalapu Madhavi,,,Female,35.0,Guntur,Pedanandipadu,,Pusuluru,Open Area,,
+34,05-01-2018,1,5,2018,,16.087209,80.39087,K.Venkata Rao,,,Male,50.0,Guntur,Pedanandipadu,,Pusuluru,Open Area,,
+35,05-01-2018,1,5,2018,,16.640959,80.035011,Merugu.Gopichand,,,Male,12.0,Palnadu,Bellamkonda,,Vekatayapalem,Open Area,,
+36,05-01-2018,1,5,2018,,16.640959,80.035011,Merugu.Marraiah,,,Male,28.0,Palnadu,Bellamkonda,,Vekatayapalem,Open Area,,
+37,05-01-2018,1,5,2018,,16.235,80.453,V.Ratna Kumari,,,Female,40.0,Guntur,Vatticherukuru,Ananthavarappadu,,Open Area,,
+38,05-01-2018,1,5,2018,,,,Narra Srinivasa Rao,,,Male,35.0,Guntur,Vatticherukuru,Kornepadu,,Open Area,,
+39,05-01-2018,1,5,2018,,16.434271,80.234936,G.Gopi Krishna,,,Male,26.0,Palnadu,Sattenapalli,Pedamakkena,,Open Area,,
+40,05-03-2018,3,5,2018,,16.543053,80.073922,Tadipatri Yesireddy,,,Male,46.0,Palnadu,Krosuru,Ananthavaram,,under tree,,
+41,05-03-2018,3,5,2018,,16.543053,80.073922,Nalaguntla Gopalarao,,,Male,24.0,Palnadu,Krosuru,Ananthavaram,,under tree,,
+42,05-03-2018,3,5,2018,,16.023906,79.991142,Smt. Kummari Anjamma,,,Female,50.0,Prakasam,Ballikurava,Chennupalle,,Open area,,
+43,05-03-2018,3,5,2018,,13.73525,79.71527,Dagolu Muneedra Reddy,,,Male,25.0,Tirupati,Thottambedu,,Ramachandrapuram,under tree,,
+44,05-03-2018,3,5,2018,,13.73525,79.71527,Dagolu Dasaradha Reddy,,,Male,29.0,Tirupati,Thottambedu,,Ramachandrapuram,under tree,,
+45,05-03-2018,3,5,2018,,13.73525,79.71527,Dagolu Guravar Reddy,,,Male,42.0,Tirupati,Thottambedu,,,under tree,,
+46,05-03-2018,3,5,2018,,14.95224,77.36361,Paramesh Naik,,,Male,25.0,Ananthapuramu,Vajrakarur,Venkatampalle,,Open Area,,
+47,05-09-2018,9,5,2018,,17.94,83.39,Someli Rada,,,Female,15.0,Alluri Sitharama Raju,Hukumpeta,Majjivalasa,,Open Area,,
+48,05-13-2018,13,5,2018,,18.739313,84.118739,Beri Hemanth Kumar,,,Male,18.0,Srikakulam,Pathapatnam,Tiddimi,,Near Shed,,
+49,05-13-2018,13,5,2018,,18.739313,84.118739,Gode Manoj Kumar,,,Male,15.0,Srikakulam,Kothuru,Sirusuvada,,Near Shed,,
+50,05-13-2018,13,5,2018,,18.78373166,84.20814333,Gantyada Anandarao,,,Male,55.0,Srikakulam,Meliaputti,Jadupalle,,Near Shed,,
+51,05-13-2018,13,5,2018,,18.78373166,84.20814333,Jammana Poluraju,,,Male,25.0,Srikakulam,Meliaputti,,Gopinadhapuram,Near Shed,,
+52,05-13-2018,13,5,2018,,18.616374,83.976019,Boddapalli Ramulu,,,Male,53.0,Srikakulam,Hiramandalam,,Ambavilli,Open Area,,
+53,05-13-2018,13,5,2018,,,,Thatipudi Appalanarasaiah,,,Male,53.0,Srikakulam,Laxminarasupeta,,R&R Colony,Under Tree,,
+54,05-13-2018,13,5,2018,,18.317927,83.889971,Sri Potnuru Yogeswararao,,,Male,19.0,Srikakulam,Srikakulam,"
+",Balaga Urban,Open Area,,
+55,05-13-2018,13,5,2018,,18.1937594,83.7052227,Kambapu.Suneetha,,,Female,13.0,Srikakulam,Ranastalam,,Paparaipeta,Open Area,,
+56,05-13-2018,13,5,2018,,14.5012,78.5933,Siddu Venkata Ramanaih,,,Male,37.0,YSR Kadapa,B.Kodur,Mekavaripalle,K. Sunkesula(v) Beechuvaripalle,Open Area,,
+57,05-13-2018,13,5,2018,,14.66917,78.753885,Smt. U. Dastagiramma,,,Female,60.0,YSR Kadapa,Khajipet,,,Open Area,,
+58,05-13-2018,13,5,2018,,18.146588,83.13156,Chinthada Ramana,,,Male,47.0,Vizianagaram,Srungavarapukota,Kapusompuram,,Under Tree,,
+59,05-13-2018,13,5,2018,,15.05618,78.199751,Sri Madiga Chinna Peddanna,,,Male,25.0,Nandyal,Kolimigundla,Kotapadu,,Under Tree,,
+60,05-14-2018,14,5,2018,,16.620628,79.547658,Mudhavathi Pavan Naik,,,Male,17.0,Palnadu,Gurajala,,Samadhanampeta,Open Area,,
+61,05-14-2018,14,5,2018,,16.620628,79.547658,Meravathi Manohar Naik,,,Male,11.0,Palnadu,Gurajala,,Samadhanampeta,Open Area,,
+62,05-14-2018,14,5,2018,,16.620628,79.547658,Bojavath Srihari Naik,,,Male,14.0,Palnadu,Gurajala,,Samadhanampeta,Open Area,,
+63,05-19-2018,19,5,2018,,16.22162242,79.88661388,Polamreddy Uma Maheswari,,,Female,8.0,Palnadu,Rompicherla,,Ramireddypalem,Open Area,,
+64,05-19-2018,19,5,2018,,16.367629,80.359401,Turupati Yallamma,,,Female,45.0,Guntur,Tadikonda,Bandarupalle,,Open Area,,
+65,05-19-2018,19,5,2018,,16.4209847,80.3562682,Bontha Venkayamma,,,Female,48.0,Guntur,Tadikonda,Ravela,,under Tree,,
+66,05-21-2018,21,5,2018,,15.32489,78.22236,Kumari Nazia,,,Female,15.0,Nandyal,Banaganapalli,Banaganapalle,,Open Area,,
+67,05-23-2018,23,5,2018,,15.207826,77.311863,N.Venkatesh,,,Male,10.0,Kurnool,Alur,,Chippagiri,Open Area,,
+68,05-23-2018,23,5,2018,,15.207826,77.311863,U.Ramanjineyulu,,,Male,23.0,Kurnool,Alur,,Chippagiri,Open Area,,
+69,05-24-2018,24,5,2018,,18.0505,83.0445,J.Kameswararao,,,Male,22.0,Vizianagaram,Vepada,Veeluparthi,,Under Tree,,
+70,05-26-2018,26,5,2018,,18.97317,83.66127,T.Srinivasarao,,,Male,40.0,Parvathipuram Manyam,Gummalakshmi-puram,,kurasingi,Open Area,,
+71,05-27-2018,27,5,2018,,12.79742,78.31425,P.C.Harish,,,Male,24.0,Chittoor,Gudupalle,Sonnarasanapalle,,Open Area,,
+72,05-29-2018,29,5,2018,,15.084083,78.977053,Sk. Chinna Meeran Saab,,,Male,70.0,YSR Kadapa,Kalasapadu,,Muddireddypalli,Open Area,,
+73,05-29-2018,29,5,2018,,15.436752,77.987901,B. Chinna Sunkanna,,,Male,38.0,Kurnool,Veldurthy,,Srirangapuram,Open Area,,
+74,05-31-2018,31,5,2018,,16.458908,81.035441,Chinnaparedy Sivaredddy,,,Male,60.0,Palnadu,Narasaraopet,Dondapadu Agraharam,,Open Area,,
+75,05-31-2018,31,5,2018,,16.508083,80.095533,K.Koteswaramma,,,Male,60.0,Palnadu,Krosuru,Thalluru,,Under Tree,,
+76,05-31-2018,31,5,2018,,16.32145,80.1906,S. Prasad,,,Male,50.0,Guntur,Phirangipuram,,Yerraguntlapadu,Open Area,,
+77,05-31-2018,31,5,2018,,16.322433,80.155474,D. Bollaiah,,,Male,27.0,Palnadu,Muppalla,,Narnipadu,Open Area,,
+78,05-31-2018,31,5,2018,,16.413,80.086,K.Ashok,,,Male,27.0,Palnadu,Sattenapalli,Dhulipalla,,Open Area,,
+79,05-31-2018,31,5,2018,,16.89098071,82.14196826,Chinna Surayya,,,Male,27.0,Kakinada,Karapa,Vakada,,Open Area,,
+80,05-31-2018,31,5,2018,,16.124217,80.031183,Pedda Abbaye,,,Male,34.0,Prakasam,Santhamaguluru,Gurijepalle,,Under Tree,,
+81,06-01-2018,1,6,2018,,16.1643,80.195743,D.Koteswara Rao,,,Male,58.0,Palnadu,Nadendla,,Vakada,Open Area,,
+82,06-01-2018,1,6,2018,,15.59302,79.6996,T.Koti Reddy,,,Male,56.0,Prakasam,Marripudi,Gundla Samudram,,Open Area,,
+83,06-02-2018,2,6,2018,,14.436255,79.969225,B.Subrahmanyam,,,Male,26.0,Sri Potti sriramulu Nellore,Sangam,,Kandriga,Open Area,,
+84,06-02-2018,2,6,2018,,14.694444,79.676389,D.Balaiah,,,Male,50.0,Sri Potti sriramulu Nellore,Anumasamudrampeta,,,Open Area,,
+85,06-02-2018,2,6,2018,,18.610556,83.643333,B.Ganesh,,,Male,22.0,Vizianagaram,Vangara,Sangam,Abbasaheb peta,Open Area,,
+86,06-02-2018,2,6,2018,,18.665977,83.9607,G. Raju,,,Male,35.0,Srikakulam,Hiramandalam,Bhagiradhipuram,,Open Area,,
+87,06-02-2018,2,6,2018,,18.3429,83.26237,Ch. Satyanarayana,,,Male,28.0,Vizianagaram,Mentada,Amarayavalasa,,Open Area,,
+88,06-02-2018,2,6,2018,,18.44009,83.43684,RamaKrishna,,,Male,35.0,Vizianagaram,Mentada,Poram,,Under Tree,,
+89,06-02-2018,2,6,2018,,13.718393,79.732953,J.Munnikumar,,,Male,19.0,Tirupati,Buchi Naidu Kandriga,,Nellimanu.Kandiriga,Open Area,,
+90,06-02-2018,2,6,2018,,15.408944,78.225139,R.Kasturamma,,,Male,30.0,Nandyal,Banaganapalli,,Ramakrishnapuram,Open Area,,
+91,06-02-2018,2,6,2018,,,,U.Mahendramma,,,Female,45.0,Chittoor,Vedurukuppam,Pathagunta,,Open Area,,
+92,06-02-2018,2,6,2018,,,,T.Bala Chandrudu,,,Female,43.0,Tirupati,Srikalahasti,,Dodlamittta,Open Area,,
+93,06-03-2018,3,6,2018,,15.041067,77.433088,Poojari .Raghavendra,,,Male,35.0,Ananthapuramu,Vajrakarur,,Havalfgi,Open Area,,
+97,06-04-2018,4,6,2018,,17.688213,82.94481,P.Hemanth Chandrasekhar,,,Male,18.0,Anakapalli,Anakapalle,,T.Venkupalem,Under Tree,,
+94,06-04-2018,4,6,2018,,17.792201,82.953307,S.Srinivasarao,,,Male,18.0,Anakapalli,Chodavaram,Govada,,Under Tree,,
+96,06-04-2018,4,6,2018,,17.688213,82.94481,N.Pavan Kumar,,,Male,18.0,Anakapalli,Anakapalle,,T.Venkupalem,Under Tree,,
+95,06-04-2018,4,6,2018,,18.35823213,18.35823213,B.Pydappadu,,,Male,42.0,Vizianagaram,Merakamudidam,Kunchigumadam,,Open Area,,
+98,06-06-2018,6,6,2018,,18.136676,82.745503,K.Subba Rao,,,Male,40.0,Alluri Sitharama Raju,Hukumpeta,Turakalametta,,Open Area,,
+99,06-07-2018,7,6,2018,,16.114917,81.069267,V.Babu Rao,,,Male,61.0,Krishna,Machilipatnam North,,Chinnapuram,Open Area,,
+100,06-19-2018,19,6,2018,,17.61351362,82.99503948,Satyanarayana,,,Male,19.0,Anakapalli,Munagapaka,Vadrapalle,,Open Area,,
+102,06-29-2018,29,6,2018,,16.409916,79.907174,T.Kotaiah,,,Male,50.0,Palnadu,Nekarikallu,Gundlapalle,,Under Tree,,
+103,06-29-2018,29,6,2018,,16.409916,79.907174,P.Sankar Nayak,,,Male,55.0,Palnadu,Nekarikallu,Gundlapalle,,Under Tree,,
+104,06-30-2018,30,6,2018,,18.150539,83.4995226,A.Eswaramma,,,Female,28.0,Vizianagaram,Nellimarla,,Dhannapeta,Open Area,,
+105,07-06-2018,6,7,2018,,,,G. Chandra Sekhar,,,Male,16.0,Vizianagaram,Santhakaviti,Siripuram,,Open Area,,
+106,08-13-2018,13,8,2018,,18.91959834,84.4757407,S. Hari Chandra,,,Male,49.0,Srikakulam,Mandasa,Siripuram,,Open Area,,
+107,08-19-2018,19,8,2018,,18.0755216,83.3871184,P. Bangarunaidu,,,Male,60.0,Vizianagaram,Vizianagaram,Malicherla,,Open Area,,
+108,08-19-2018,19,8,2018,,18.02549,83.329982,S. Lakshmi,,,Female,28.0,Visakhapatnam,Padmanabham,Potnuru,,Open Area,,
+109,09-11-2018,11,9,2018,,16.573686,81.07218,T.Lakshmi,,,Female,41.0,Eluru,Pedapadu,Vaddigudem,,Open Area,,
+110,09-12-2018,12,9,2018,,17.1193855,82.346503,V. Yellababu,,,Male,36.0,Kakinada,U. Kothapalli,,Ponnada,Under Tree,,
+111,09-13-2018,13,9,2018,,14.053511,79.630566,N.Venkateswarlu,,,Male,49.0,Tirupati,Dakkili,Nadimpalle,,Under Tree,,
+112,09-13-2018,13,9,2018,,16.28882564,81.1501321,P. Basavesara Rao,,,Male,50.0,Krishna,Pedana,Konkepudi,,Under Tree,,
+113,09-13-2018,13,9,2018,,16.30861111,81.12888889,V.Naga Jyothi,,,Female,35.0,Krishna,Gudlavalleru,,Vadlamnadu,Open Area,,
+114,09-13-2018,13,9,2018,,15.11512025,79.87166796,G. Venkaiah,,,Male,67.0,Prakasam,Gudluru,Gundlapalem,,Under Tree,,
+115,09-13-2018,13,9,2018,,15.01935,80.001443,N. Srihari,,,Male,32.0,Prakasam,Gudluru,,Elurupadu,Open Area,,
+116,09-13-2018,13,9,2018,,14.353583,79.46388,J Subramanaym,,,Male,38.0,Sri Potti sriramulu Nellore,Sangam,Tharunavaya,,Open Area,,
+117,09-14-2018,14,9,2018,,18.48194444,83.535,B.Simhachalam,,,Male,59.0,Vizianagaram,Therlam,Locherla,,Under Tree,,
+118,09-16-2018,16,9,2018,,18.285238,83.737404,B.Lakshmi,,,Female,52.0,Srikakulam,Laveru,,Gurralapalem,Under Tree,,
+119,09-16-2018,16,9,2018,,13.3862,79.95,P.Venkateswarulu,,,Male,65.0,Tirupati,Satyavedu,,,Open Area,,
+120,09-17-2018,17,9,2018,,15.862143,79.931769,U. Seetharamayya,,,Male,58.0,Prakasam,Mundlamuru,Khambham Padu (East),,Open Area,,
+121,09-18-2018,18,9,2018,,16.20068,80.528,R.Santha Kumari,,,Female,35.0,Guntur,Chebrolu,Godavarru,,Open Area,,
+122,09-25-2018,25,9,2018,,14.41835,78.224667,K.Venkata Subba Reddy,,,Male,58.0,YSR Kadapa,Vemula,Chagaleru,,Under Tree,,
+123,09-26-2018,26,9,2018,,14.971275,78.980988,M.Obaiah,,,Male,35.0,YSR Kadapa,Porumamilla,,Narasingupalli,Open Area,,
+124,09-27-2018,27,9,2018,,15.779545,78.091457,G D Geetha,,,Female,27.0,Kurnool,Kurnool Rural,,Nandanapalli,Under Tree,,
+125,09-28-2018,28,9,2018,,15.00722222,78.98944444,D.Ramachandraiah,,,Male,39.0,YSR Kadapa,Porumamilla,,,Under Tree,,
+126,09-30-2018,30,9,2018,,18.6850473,83.3831714,J. Subbinaidu,,,Male,45.0,Parvathipuram Manyam,Seethanagaram,,Jogim peta,Under Tree,,
+127,10-03-2018,3,10,2018,,14.83944444,78.36527778,A.Karthik,,,Male,12.0,YSR Kadapa,Jammalamadugu,Ponnathota,,Open Area,,
+128,10-14-2018,14,10,2018,,14.60652,79.73534,R.Srinaiaha,,,Male,20.0,Sri Potti sriramulu Nellore,Sangam,Sangam,,Open Area,,
+129,10-14-2018,14,10,2018,,15.12494624,79.81123095,M. Malakondaiah,,,Male,34.0,Prakasam,Voletivaripalem,Sakhavaram,,Open Area,,
+130,10-15-2018,15,10,2018,,15.72199394,77.71108948,Sri Telugu Karenna,,,Male,66.0,kurnool,Kodumur,"
+",Kallapari,Open Area,,
+131,10-15-2018,15,10,2018,,15.38783,77.22022,Sri Gadilinga,,,Male,30.0,Kurnool,Alur,,Kurunalli,Open Area,,
+132,10-15-2018,15,10,2018,,,,Mohmad Rafi,,,Male,45.0,Nandyal,Allagadda,Obulampalle,,Under Tree,,
+133,10-15-2018,15,10,2018,,17.216551,81.382385,Seri Kukati Venkanna,,,Male,60.0,Eluru,Buttayagudem,,Atchayyapalem,Under Tree,,
+134,10-16-2018,16,10,2018,,,,Gali Sujan,,,Male,20.0,Nandyal,Sirvel,Mahadevapuram,,Under Tree,,
+135,10-16-2018,16,10,2018,,16.7632754,80.7844895,A.Srimanarayana,,,Male,33.0,Eluru,Agiripalli,,Seetharampuram,Open Area,,
+136,10-17-2018,17,10,2018,,15.23241706,78.61501649,K. Lakshmi Devi,,,Male,35.0,Nandyal,Rudravaram,Rudravaram,,Open Area,,
+137,10-17-2018,17,10,2018,,15.23241706,78.61501649,Y. Venkatamma,,,Female,45.0,Nandyal,Rudravaram,Rudravaram,,Open Area,,
+138,10-17-2018,17,10,2018,,15.81233,77.815292,K.Ramudu,,,Male,22.0,Kurnool,Gudur,Mallapuram,,Open Area (Sound),,
+144,02-28-2019,28,2,2019,,15.919494,79.755344,Devarakonda Ramesh,570158053984.0,,Male,39.0,Palnadu,Nuzendla,V.Appapuram,,Open area,,D. Naga Mani Ph: 6369811209
+145,03-20-2019,20,3,2019,,19.114026,84.627707,Sri Jobarath Bitriya,,Daily wage Labour,Male,39.0,Srikakulam,Ichchapuram,Haripuram,,Beside Shed,,Smt. Hoyila bitriya (Wife) Ph.No : 6371841434
+146,03-24-2019,24,3,2019,,17.827344,82.941608,S.Vasikaran,224922948335.0,Student,Male,9.0,Anakapalli,Chodavaram,,Chodavarm,Open Area (Top of the House),BPL,"S.Appala Raju ( Father) P.No: 7702886629, 9866610575"
+147,03-31-2019,31,3,2019,,18.124909,83.347855,Velagada . Siva,700863359306.0,Daily wage Labour,Male,18.0,Vizianagaram,Gantyada,Karakavalasa,,Open Area,BPL,Phone No: 9573248053
+148,03-31-2019,31,3,2019,,18.124909,83.347855,Karrai . Prem Kumer,984776895752.0,Daily Labour,Male,22.0,Vizianagaram,Gantyada,Karakavalasa,,Open Area,BPL,Phone No: 9704525713
+149,04-01-2019,1,4,2019,,17.875743,82.932627,D. Kanaka Varahalu,772155930194.0,Farmer,Male,28.0,Anakapalli,Chodavaram,Mycherlapalem,,Open Area,BPL,Phone No: 9912490990
+150,04-18-2019,18,4,2019,,15.90777778,79.89444444,B. Ramaiah,667892760635.0,Farmer,Male,67.0,YSR Kadapa,Porumamilla,Cherlopalle,Thimmareddy palle(v),Open Area,BPL,B. Pedda Durgaiah (Elder Son) Ph.No : 9703123313
+151,04-18-2019,18,4,2019,,16.512035,79.53445167,Venkateshan ponnusaami,717192604731.0,,Male,35.0,Palnadu,Rentachintala,Manchikallu,,Open Area,--,"Lakshman Venkateshan S/o Lakshman (v) Viluppuram (M) Chinnasalem (D) Tamilnadu state - 606301,Phone No: 9943079173"
+152,04-20-2019,20,4,2019,,16.007161,79.690196,Gumma . Chirraiah @ Borraiah,588021122766.0,Agricultural Labour,Male,46.0,Palnadu,Vinukonda,,Upparapalem,Open Area,BPL,Gumma.Nagarjuna
+153,04-20-2019,20,4,2019,,15.958941,79.684099,CH. Venkata Kotaiah,389692081534.0,Farmer,Male,31.0,Palnadu,Nuzendla,Pamidipadu,M.V Palem,Open Area,BPL,8897958244.0
+154,04-20-2019,20,4,2019,,16.17,79.72,S. China Venkateswara Reddy,743176972527.0,Cultivation,Male,65.0,Palnadu,Ipuru,Agnigundala,,Open Area,BPL,S.Obbulamma (Wife) Phno: 9959465937
+155,04-20-2019,20,4,2019,,16.4230565,79.717825,Shaik . Mastan Bee,682039721654.0,Daily wage Labour,Female,51.0,Palnadu,Karempudi,Karempudi,,Open Area( Shoke as a result of flash lightning Stroke ),BPL,"Sk. Nasarvali (Husband) , P.No: 9182348904"
+156,04-20-2019,20,4,2019,,15.90609,79.5799,Sri Ram Siva,620347564711.0,Daily wage Labour,Male,31.0,Prakasam,Darsi,Darsi,,Beside Shed,BPL,Bujji ( Wife)
+157,04-20-2019,20,4,2019,,14.649245,79.41357,Sri Satyala Chinnaiah,870986877369.0,Agricultural Labour,Male,45.0,Prakasam,Marripudi,,Ponguru,Open Area,BPL,Satyala Radhamma (Wife)
+158,04-20-2019,20,4,2019,,17.782752,83.215101,P.Eashwara Rao,,Daily wage Labour,Male,36.0,Visakhapatnam,Pendhurthi,Krishnarayapuram,,Open Area,BPL,Srinivasrao (Cousin) Ph.9291313035
+159,04-21-2019,21,4,2019,,18.7775,83.88638889,Hanumanthu Appanna,955943733127.0,Agricultural Labour,Male,53.0,Srikakulam,Kothuru,Kaligam,,Open Area,BPL,H. Asumathi (wife)
+160,04-22-2019,22,4,2019,,15.287703,78.866663,B.Sushanth Naiak,,,Male,4.0,Markapur,Giddalur,Sanjeevarao peta,,Beside Shed,BPL,6303253684.0
+161,05-07-2019,7,5,2019,,16.29561264,80.51718188,CH. Danaiah,,Agricultural Labour,Male,20.0,Guntur,Pedakakani,Pedakakani,,Open Area,BPL,"CH. Sivayya ( Father), 7569689578"
+162,05-08-2019,8,5,2019,,16.32168,80.39361,T. Pedda Sreenu,920752434665.0,Daily wage Labour,Male,39.0,Guntur,Guntur East,,Peda palakaluru,Sound (Near House),BPL,8919206332.0
+163,05-11-2019,11,5,2019,,16.12093,79.75698,Kondameda. Yedukonda,376293549272.0,Sheepred,Male,30.0,Palnadu,Ipuru,Kondramutla,,Open Area,BPL,Wife: 9959582846
+164,05-11-2019,11,5,2019,,16.516303,80.056642,G.Yedukondalu,471039650338.0,Agricultural Labour,Male,44.0,Palnadu,Krosuru,Hassanbada,,Open Area,BPL,"G. Yedukondalu ,Ph. No: 9652035524"
+165,05-11-2019,11,5,2019,,15.44325,79.46496,U.Lakshmamma,647354133932.0,House Wife,Female,32.0,Sri Potti sriramulu Nellore,Kaligiri,,Kasipuram,UnderTree,BPL,U .Nagaiah S/o Kasaiah
+166,05-12-2019,12,5,2019,,16.462415,80.263759,Sk.Taajuddin,613539220152.0,Agricultural Labour,Male,51.0,Palnadu,Pedakurapadu,Pedakurapadu,,Open Area (Shock ),BPL,Shaik.Galibi
+167,05-13-2019,13,5,2019,,14.825306,79.664107,K.Lalitha,457518766622.0,House Wife,Female,32.0,Sri Potti sriramulu Nellore,Kaligiri,Nagasamudram,,Open Area,BPL,K.Madhu
+168,05-13-2019,13,5,2019,,14.825306,79.664107,K.Madhavakrishna,780531279555.0,Student,Male,14.0,Sri Potti sriramulu Nellore,Kaligiri,Nagasamudram,,Open Area,BPL,K.Madhu
+169,05-13-2019,13,5,2019,,15.001923,79.700633,K. Praveen Reddy,778139305863.0,Agricultural Labour,Male,28.0,Sri Potti sriramulu Nellore,Kondapuram,Gudavalluru (Kondapuram),,Open Area,APL,K. Premanandha Reddy
+170,05-13-2019,13,5,2019,,15.14388889,78.54583333,P.Hussain Bhasha,555721966775.0,Daily wage Labour,Male,23.0,Nandyal,Allagadda,Obulampalle,,Open Area,BPL,8142409482.0
+171,05-13-2019,13,5,2019,,15.14388889,78.54583333,Kamma Naidu,683948922010.0,Daily wage Labour,Male,24.0,Nandyal,Allagadda,Obulampalle,,Open Area,BPL,9703626915.0
+172,05-13-2019,13,5,2019,,14.81746,79.69515,G. Bala Nagamma,424890092794.0,House Wife,Female,36.0,Sri Potti sriramulu Nellore,Kaligiri,,Yerrakunta,Open Area,BPL,"G. Srinivasulu ,Ph.No: 9959564788"
+173,05-13-2019,13,5,2019,,15.2797,79.60619,G. Malleswari,735505509307.0,Agricultural Labour,Female,38.0,Markapur,Pedacherlopalle,Marella,,Under Tree,BPL,G. Venkata Ramanaiah Ph.No: 9347043137
+174,05-13-2019,13,5,2019,,16.11082835,79.31609383,Nunsavath Mallu Naik,444434324003.0,Daily wage Labour,Male,63.0,Palnadu,Ipuru,,Yendrapalli,Under Tree,BPL,Nunsavath Ramilli Bai
+175,05-17-2019,17,5,2019,,18.29364,82.57484,P. Suresh Kumar,799638522806.0,Agricultural Labour,Male,22.0,Alluri Sitharama Raju,Pedabayalu,Sampangi Puttu,Adugulaputtu Panchat,Near House,BPL,"Pangi Balaram , Ph.No: 9491995585"
+176,05-17-2019,17,5,2019,,15.30186111,78.55027778,G.Dattatreya,991483327303.0,Daily wage Labour,Male,23.0,Nandyal,Sirvel,Sirvel,Khadarabadra ,Open Area,BPL,"Father: G. Bhrahmaiah , 9989671510"
+177,05-17-2019,17,5,2019,,15.6867713,78.5393972,P.Madhu,880658492431.0,Daily wage Labour,Male,17.0,Nandyal,Velugodu,,Ayyavari palli,Open Area,BPL,"P.Ramudu ,Ph.No: 9177252797 , 9652575059"
+177,05-17-2019,17,5,2019,,,,Palakoli Madhu,,Daily wage Labour,Male,,Kurnool,Orvakal,Uyyalawada,,Open Area,BPL,
+178,05-21-2019,21,5,2019,,15.28859422,78.33667696,M. Jaffer,889438287927.0,Farmer,Male,28.0,Nandyal,Kolimigundla,,Kallugotla,Under Tree,BPL,"Shaik jamilabee, 9951265640"
+180,05-21-2019,21,5,2019,,15.506183,77.475452,G.Rangappa,445551492116.0,Farmer,Male,38.0,Kurnool,Aspari,Muthkur,,Open Area,BPL,"K.Lingamma, 6300776244"
+181,05-21-2019,21,5,2019,,15.2479365,77.165807,Srinivasulu,477818275142.0,Sheepred,Male,45.0,Kurnool,Halaharvi,Chinthakunta,,Open Area,BPL,"Maha Devi ,9666358216"
+182,05-26-2019,26,5,2019,,18.863064,83.5507911,Kummari . Thowdu,670190416678.0,Daily wage Labour,Male,59.0,Parvathipuram Manyam,Kurupam,Kurupam,,Open Area,BPL,K.Rukmini
+183,05-26-2019,26,5,2019,,18.505323,83.830747,P.veeranna,610745126697.0,Agricultural Labour,Male,72.0,Srikakulam,Burja,Kollivalasa,,Beside Shed,BPL,"P. Chenchu Lakshmi , 9603989083"
+184,05-26-2019,26,5,2019,,18.75777778,83.9825,P.Dasaradhi,751891566818.0,Agricultural Labour,Male,33.0,Srikakulam,Kothuru,gurandi,,Beside Shed,BPL,P. Rupa (Wife) Ph.No: 6304472870
+185,05-28-2019,28,5,2019,,17.91967,83.35252,pedda appalanaidu,864185966814.0,Farmer,Male,56.0,Visakhapatnam,Anandapuram,Gottipalle,,Open Area,BPL,"Mutyalu(Son) ,Appayamma Ph Nbo: 9705242803"
+186,05-29-2019,29,5,2019,,13.285814,78.701064,P.Nagamma,377694108460.0,Agricultural Labour,Female,65.0,Chittoor,Peddapanjani,,Kogirelu,Under Tree,BPL,"Abbanna (Husband) , 9441803903"
+187,05-29-2019,29,5,2019,,13.285814,78.701064,Sasikumar,796073438790.0,Agricultural Labour,Male,18.0,Chittoor,Peddapanjani,,Kogirelu,Under Tree,BPL,9441803903.0
+188,06-03-2019,3,6,2019,,17.31222153,81.26694489,Meyiboyina. Arjun,655532138574.0,Daily wage Labour,Male,45.0,Eluru,Buttayagudem,,Vemulapadu,Open Area,BPL,7386372381.0
+189,06-06-2019,6,6,2019,,17.672481,82.355183,V. Veera raju,481591600742.0,Agricultural Labour,Male,50.0,Alluri Sitharama Raju,Koyyuru,Chintalapudi,Ginjarthi,Open Area,BPL,"V. Radha , Ph.No : 9346141212"
+190,06-06-2019,6,6,2019,,16.65358889,80.30583333,Juvvaji. Venkateswarulu,611665312729.0,Farmer,Male,68.0,NTR,Kanchikacherla,,Amaravaram,Under Tree,BPL,J.Ramayya
+191,06-06-2019,6,6,2019,,16.55141,80.83993,yelavarthi. Raj kumar,328428304973.0,Daily wage Labour,Male,23.0,Eluru,Unguturu,,Pedaotupalli,Open Area,BPL,"Y.Kishore (Brother in Law) , Y. Sambhaya (Father) Ph.No: 9912414314"
+192,06-09-2019,9,6,2019,,13.92052159,79.76936448,Pubbara. Madhavai,373721568993.0,Agricultural Labour,Female,20.0,Tirupati,Ozili,Athivaram,,Open Area,BPL,Murali (Husband)
+193,06-09-2019,9,6,2019,,14.4418396,79.7809755,Pallam. Srinivasulu,944993042010.0,Daily wage Labour,Male,43.0,Sri Potti sriramulu Nellore,Nellore Rural,Kandamur,,Open Area,BPL,P.Varamma (Wife) Ph.No: 9553780116
+194,06-09-2019,9,6,2019,,14.855875,79.718443,Dasari. Sudhakar,250930509050.0,Agricultural Labour,Male,30.0,Sri Potti sriramulu Nellore,Kaligiri,,Polampadu,Under Tree,BPL,"S/O seshayya ,"
+195,06-12-2019,12,6,2019,,,,Bhola Sunil Kumar,,Agricultural Labour,Male,,Vizianagaram,,,,Open Area,BPL,S/O Bhola Saw
+196,06-23-2019,23,6,2019,,17.178722,81.272988,Nekkalaboyini .Venkateswara rao,712946385890.0,Daily wage Labour,Male,53.0,Eluru,Buttayagudem,,Gilakarragudem,Open Area,BPL,N. durgamma
+197,06-25-2019,25,6,2019,,16.521,80.497,Madira . Sridevi,659831145634.0,Agricultural Labour,Female,35.0,Guntur,Thulluru,Velagapudi,,Open Area,BPL,Siva Nageswara rao
+198,07-15-2019,15,7,2019,,17.95944444,83.44472222,I.Ramulappadu,---,Shepered,Male,50.0,Vizianagaram,Bhogapuram,Polipalle,,Open Area,BPL,Bangari (Son)
+199,07-15-2019,15,7,2019,,17.95944444,83.44472222,A.Appanna,444787359898.0,Sheepred,Male,55.0,Vizianagaram,Bhogapuram,Polipalle,,Open Area,BPL,A.Appayamma (Wife)
+200,07-19-2019,19,7,2019,,12.77043056,78.25722222,L.Bharathi,819861086184.0,Agricultural Labour,Female,25.0,Chittoor,Gudupalle,Boyanapalle,,Open Area,BPL,6305552519.0
+201,08-16-2019,16,8,2019,,18.10552,83.181145,U.Anakamma,,Agricultural Labour,Female,55.0,Vizianagaram,Srungavarapukota,Dharmavaram,,Open Area,BPL,Kesava (Wife)
+202,08-18-2019,18,8,2019,,17.993128,83.109712,B. Naidu,,Daily wage Labour,Male,30.0,Vizianagaram,Vepada,Athava,,Open Area,BPL,Demudu (Son)
+203,08-19-2019,19,8,2019,,17.99461,83.096442,K. China Demudu,,Farmer,Male,65.0,Vizianagaram,Vepada,Athava,,Open Area,BPL,Raji (son)
+204,08-21-2019,21,8,2019,,16.55686529,80.90732501,A.Sripudi reddy,516381310234.0,Agricultural Labour,Male,33.0,Bapatla,Cherukupalli,,Pittuammireddypalem,Open Area,BPL,A.Sivanagulu(Wife)- 9963227088
+205,08-21-2019,21,8,2019,,16.170787,80.981247,P.Bharathi,695455607946.0,Agricultural Labour,Female,60.0,Krishna,Ghantasala,Chitturu,,Open Area,BPL,P.Sirisha (Daughter)- 8309771383
+206,08-21-2019,21,8,2019,,16.26244666,81.15064,Sharifunnisa,243693201934.0,Agricultural Labour,Female,55.0,Krishna,Pedana,Pedana (M),,Open Area,BPL,Abdual kaleef( Wife)
+207,09-17-2019,17,9,2019,,17.581492,81.114425,M. Sujatha,6350446861777.0,Daily wage Labour,Female,32.0,Eluru,Kuknoor,Kondapalle,,Open Area,BPL,9398342363.0
+208,09-18-2019,18,9,2019,,,,U.Samrajyam,,Agricultural Labour,Female,37.0,Palnadu,Amaravathi,,Lemalle,Open Area,,
+209,09-18-2019,18,9,2019,,,,Sri Vennappusa krishna reddy,647494423613.0,Farmer,Male,32.0,Prakasam,Ponnaluru,,Vedurivaripalem,Open Area,BPL,8886616073/ 9121102207
+210,09-21-2019,21,9,2019,,,,Thannamala Dhanunja reddy,353123507481.0,Farmer,Male,62.0,Tirupati,Sullurpeta,Suggupalle,,Open Area,BPL,Balarami Redddy - 9177245382
+211,09-25-2019,25,9,2019,,,,Smt.Pallipati Ramanamma,,,Female,44.0,Tirupati,Balayapalli,Bhyravaram,SC Colony,,,
+212,10-03-2019,3,10,2019,,,,Sri Tholuchuri Srinivasarao,,,Male,49.0,Guntur,Chebrolu,Pathareddipalem,,,,
+213,10-06-2019,6,10,2019,,,,B. Chudamani,902465563610.0,Farmer,Male,44.0,Srikakulam,Sompeta,Sunkidi,,Open Area,BPL,9701204540.0
+214,10-07-2019,7,10,2019,,15.8371042,80.2186425,Sri Ravi Manohar,,Agricultural Labour,Male,53.0,Bapatla,Inkollu,,"Daggubadu, Karamchedu",Open Area,,
+215,10-07-2019,7,10,2019,,15.3723822,79.3566074,Somu ramanamma,8886616082.0,Agricultural Labour,Female,55.0,Markapur,Veligandla,Kankanam Padu,Papiredy palli,Open Area,BPL,9848971298.0
+216,10-07-2019,7,10,2019,,,,Smt. Tondapureddy Koteswaramma,,,Female,33.0,Prakasam,Santhanuthalapadu,Pernametta (Rural),,Open Area,,
+217,10-07-2019,7,10,2019,,,,Smt. Marella seshamma,,,Female,65.0,Prakasam,Santhanuthalapadu,Pernametta (Rural),,Open Area,,
+218,10-09-2019,9,10,2019,,18.94297222,84.48555556,B. Chudamani,902465563610.0,Agricultural Labour,Female,44.0,Srikakulam,Sompeta,Mala Govindapuram,Hamsamara,Open Area,BPL,smt. B. shoba Rani - 7995995858
+219,10-13-2019,13,10,2019,,,,smt. Boda Malleswari,530086610310.0,Agricultural Labour,Female,30.0,Sri Potti sriramulu Nellore,Marripadu,,Kuchipudi,Open Area,BPL,
+220,10-15-2019,15,10,2019,,,,smt.K. Kamasani Santhi,645490927640.0,,Female,35.0,Bapatla,Vetapalem,,Vadde sangam,Open Area,BPL,
+221,03-19-2020,19,3,2020,,17.969041,83.266788,Viyyapu Ramana,522978892682.0,Agricultural Labour,Male,55.0,Vizianagaram,Jami,Alamanda,Narayanapuram,Open Area,BPL,***
+222,03-19-2020,19,3,2020,,17.977297,83.11528,Bhumireddy Appalanaidu,818253471628.0,Student,Male,15.0,Vizianagaram,Lakkavarapukota,Latchampeta,,Sound Shock,,8096613474.0
+223,03-21-2020,21,3,2020,,16.64303675,79.6071913,Potla Lakshmi Narayana,641470385677.0,Student,Male,16.0,Palnadu,Gurajala,Daida,,Under Tree,,8897429968.0
+224,04-06-2020,6,4,2020,,14.061464,79.235556,Chavakula Dhanesh,316060947686.0,Student,Male,20.0,Tirupati,Pullampeta,,Eguvareddipalli,Near to Shed,,8008735405.0
+225,04-07-2020,7,4,2020,,15.93812,77.38946,Kuruva Ramanjineyulu,555424219126.0,Farmer,Male,27.0,Kurnool,Mantralayam,Chetnihalli,,Near to Shed,,K.saraswathi
+226,04-09-2020,9,4,2020,,15.959971,20.656575,Bellamkonda Lakshmaiah,,Agricultural Labour,Male,74.0,Bapatla,Nagaram,Pedapalle,,Open Area,,B. Sharabamma ( 7032762446)
+227,04-09-2020,9,4,2020,,15.883403,80.890442,Kanna Naresh,980060143725.0,Fisher man,Male,32.0,Bapatla,Repalle,,R/o Gandepalem,Sound Shock,,Kanna Naga kumari (Wife) 6303751015
+228,04-09-2020,9,4,2020,,16.017048,79.410428,Gaadiparthi Lakshmi Narayana,425055682815.0,Agricultural Labour,Male,60.0,Markapur,Tripuranthakam,Mittapalem,,Open Area,,Smt.Gadaparthi Bhramha Eswaramma
+229,04-09-2020,9,4,2020,,14.743915,79.906851,Narapareddy Penchala Reddy,614630480729.0,Daily wage Labour,Male,65.0,Sri Potti sriramulu Nellore,Bogole,Jakkepalligudur,,Open Area,,"N.Chandra Sekahar Reddy:9490253196, N.Gopal Reddy: 9908507332"
+230,04-09-2020,9,4,2020,,14.680739,80.094871,Kalahastri. Subbarao,496404242544.0,Daily wage Labour,Male,54.0,Sri Potti sriramulu Nellore,Allur,Gogulapalle,,Under Tree,,Kalahasthi Sujathamma
+231,04-09-2020,9,4,2020,,14.662524,79.881478,Thummuru Subbarayudu,563912202461.0,Farmer,Male,50.0,Sri Potti sriramulu Nellore,Dagadarthi,Chennuru,,Under Tree,,"T.Sampoornamma, 8688772077"
+232,04-09-2020,9,4,2020,,14.662524,79.881478,Gangavarapu Syamsundara Rao,224068578081.0,Sheepred,Male,40.0,Sri Potti sriramulu Nellore,Dagadarthi,,Gollapalli,Under Tree,,G.Vajramma
+233,04-09-2020,9,4,2020,,14.662524,79.881478,Patthiboina Anjaiah,511447602568.0,Sheepred,Male,36.0,Sri Potti sriramulu Nellore,Dagadarthi,,Gollapalli,Under Tree,,P.Malleswari
+234,04-09-2020,9,4,2020,,13.905411,79.905819,Gundala.Srinivasulu,883184040024.0,Agricultural Labour,Male,40.0,Tirupati,Naidupet,Gottiprolu,,Sound Shock,,A.Ksihtamma:7702451936
+235,04-09-2020,9,4,2020,,13.954298,79.99534,Avula.Guravaiah,218541463341.0,Agricultural Labour,Male,65.0,Tirupati,Naidupet,Gottiprolu,,Open Area,,G.Shilpa:9704487509
+236,04-23-2020,23,4,2020,,15.511343,79.173665,Palleboina. Munikumari,287336875924.0,Daily wage Labour,Female,28.0,Markapur,Bestavaripeta,,Mallapuram,Under Tree,,Palleboina.Peddi Raju:8897769378
+237,04-23-2020,23,4,2020,,15.511343,79.173665,Bayya. Rajamma,830703858012.0,Daily wage Labour,Female,55.0,Markapur,Bestavaripeta,,Mallapuram,Under Tree,,Bayya.Venkateswarlu: 9082193515
+238,04-25-2020,25,4,2020,,18.29207,83.06542,Gammela Polamma,869699346494.0,Daily wage Labour,Female,17.0,Parvathipuram Manyam,Pachipenta,Kesali,,Under Tree,,Gammela Bodayya: 8985092543
+239,04-25-2020,25,4,2020,,17.221794,82.488787,Madada Sri madhuri,417390626913.0,Children,Female,3.0,Kakinada,Thondangi,,Danavaipeta,Under Tree,,Madada Srinu
+240,04-25-2020,25,4,2020,,17.744817,83.199892,Paila Koteswara Rao,509941815477.0,Daily wage Labour,Male,36.0,Visakhapatnam,Pendhurthi,Narava,,Open Area,,"P.Krishna Veni, 8179268496"
+241,04-25-2020,25,4,2020,,17.686926,83.036754,Mandapaka. Paramatamma,403669480515.0,Agricultural Labour,Female,63.0,Visakhapatnam,Anakapalli,Thummapala,,Open Area,,Mandapaka Naidu:9573289663
+242,04-27-2020,27,4,2020,,16.029625,80.577762,Mikkili.Prakasha Rao,348143273213.0,Agricultural Labour,Male,52.0,Guntur,Ponnur,Jadavalli,,Open Area,,Mikkili Rahelu: 9392472428
+243,04-27-2020,27,4,2020,,16.125306,80.590511,Annapareddy Mohanamurali Krishna Reddy,774379895183.0,Farmer,Male,35.0,Bapatla,Tsundur,Modukuru,,Open Area,,A.Mohan Murali Krishna Reddy: 8466949873
+244,04-30-2020,30,4,2020,,18.83814,84.41725,Savara Bala Surendra,897189679963.0,Student,Male,19.0,Srikakulam,Mandasa,Kusumala,,Near to Shed,,***
+245,05-01-2020,1,5,2020,,15.2778,78.2219,Komma Gopal Reddy,2719 9989 4763,Farmer,Male,42.0,Nandyal,Mahanandi,Thammadapalle,,Under Tree,,K.Vijaya Lakshmi
+246,05-17-2020,17,5,2020,,13.19939391,79.23815699,K. Venkatesulu Reddy,2261 4216 6103,Farmer,Male,68.0,Chittoor,Gangadharanellore,Mahadevamangalam,,Open Area,,K.Dhanamma:8790918079
+247,05-25-2020,25,5,2020,,13.8273,77.7328,J.Adinarayana,,Agricultural Labour,Male,30.0,Ananthapuramu,Chilamathur,,Lalepalli,Under Tree,,
+248,05-26-2020,26,5,2020,,14.9748,77.1474,Tellabandla. Prakash,994563097071.0,Agricultural Labour,Male,21.0,Ananthapuramu,Vidapanakal,Palthur,,Open Area,,8790349317.0
+249,05-26-2020,26,5,2020,,14.9748,77.1474,K.Gowreesh,77481360766.0,Agricultural Labour,Male,40.0,Ananthapuramu,Vidapanakal,Palthur,,Open Area,,8803169411.0
+250,05-27-2020,27,5,2020,,15.9433,79.131,Sri Venna Venkata Reddy,,Agricultural Labour,Male,45.0,Prakasam,Dornala,Peda Bommala Puram,,Open Area,,
+251,05-29-2020,29,5,2020,,18.61983333,83.56277778,Sanapathi.Atchutharao,227844187160.0,Student,Male,16.0,Vizianagaram,Vangara(Merakamudidam),M.Gadabavalasa,,Open Area,,Sanapathi Parvathi
+252,05-29-2020,29,5,2020,,18.61983333,83.56277778,Vaddipalli Sankara Rao,239644180275.0,Daily wage Labour,Male,45.0,Vizianagaram,Vangara,,Sriharipuram,Open Area,,Vaddipalli Sanjeevirani
+253,05-29-2020,29,5,2020,,18.61983333,83.56277778,Salapu. Sriramulu,919056051152.0,Daily wage Labour,Male,60.0,Vizianagaram,Vangara,Geethanapalle,,Open Area,,Salapur Raju
+254,05-29-2020,29,5,2020,,18.4002,83.6436,Kinthali Simhachalam,914978425714.0,Farmer,Male,32.0,Srikakulam,Rajam,Kotaripuram,,Open Area,,8008525028.0
+255,05-29-2020,29,5,2020,,18.727,83.762,Arika Anand,590298110153.0,Farmer,Male,45.0,Parvathipuram Manyam,Seethampeta,Tumbakonda,,Under Tree,,9398883893.0
+256,05-29-2020,29,5,2020,,82.7384,17.9288,Pagi Krishna,733292199850.0,Farmer,Male,52.0,Anakapalli,V Madugula,Sankaram,,Open Area,,7993349585.0
+257,05-30-2020,30,5,2020,,13.3292,78.806394,Madavali Rama Krishna,448093508655.0,Farmer,Male,48.0,Chittoor,Peddapanjani,,Peddakapupalli,Near to Shed,,9886202263.0
+258,05-30-2020,30,5,2020,,13.3292,78.806394,Madavali Rama Devi,228267491796.0,Issro Company(Contract Basic),Female,21.0,Chittoor,Peddapanjani,,Peddakapupalli,Near to Shed,,9886202263.0
+259,05-30-2020,30,5,2020,,13.3292,78.806394,M.Meena Kumari,517580109118.0,Agricultural Labour,Female,19.0,Chittoor,Peddapanjani,,Peddakapupalli,Near to Shed,,9886202263.0
+260,05-31-2020,31,5,2020,,14.975518,77.691727,Boya Krishnamurthy,430807444641.0,Agricultural Labour,Male,39.0,Ananthapuramu,Peddavaduguru,Teliki,,Sound Shock,,Boya Krishnamma: 9849511949
+261,06-01-2020,1,6,2020,,18.829861,83.59941,Belagapu Parayya,336431556420.0,Daily wage Labour,Male,67.0,Parvathipuram Manyam,Jiyyammavalasa,,SC Maruwada,Near to Shed,,Belagapu Gowramma:
+262,06-01-2020,1,6,2020,,18.829861,83.59941,Semala Bushana Rao,231289884413.0,Gov.Teacher,Male,39.0,Parvathipuram Manyam,Jiyyammavalasa,,SC Maruwada,Near to Shed,,Seemala Sujatha
+263,06-01-2020,1,6,2020,,18.829861,83.59941,Belagapu Chinapandayya,650350413544.0,Daily wage Labour,Male,51.0,Parvathipuram Manyam,Jiyyammavalasa,,SC Maruwada,Near to Shed,,Belagapu Ravanamma
+264,06-02-2020,2,6,2020,,17.5589,82.1366,Somela Gangamma,,,Female,60.0,Alluri Sitharama Raju,Ananthagiri,Kotaparti,,,,
+265,06-02-2020,2,6,2020,,17.5589,82.1366,Kotaparthi. Rangayya,,,Male,48.0,Alluri Sitharama Raju,Ananthagiri,,"Eguva Kotaparthi, N.R.Puram",,,
+266,06-06-2020,6,6,2020,,18.3320008,83.52104,Meesala Venkataramana,576418661990.0,Student,Male,13.0,Vizianagaram,Garividi,,K.Palavalasa,Open Area,,8374004021.0
+267,06-06-2020,6,6,2020,,18.253063,83.45889,Sunkari Taviti Naidu,865561416536.0,Agricultural Labour,Male,43.0,Vizianagaram,Gurla,Palavalasa,,Open Area,,***
+268,06-06-2020,6,6,2020,,18.302052,83.740433,Pinnioti Hari Prasad,4357 6293 3123,Student,Male,11.0,Srikakulam,Laveru,Adapaka,,Under Tree,,Pinninti Lakshmi Kantham
+269,06-25-2020,25,6,2020,,16.148122,79.868373,Talamala Suvarthamma,294501993075.0,Agricultural Labour,Female,36.0,Palnadu,Savalyapuram,Velupuru,,Sound Shock,,Talama Salman:9652251531
+270,06-27-2020,27,6,2020,,16.57446,43.69577,Bukkamantula Chenchaiah,845721323463.0,Sheepred,Male,66.0,Prakasam,Ponnaluru,,Mudlamurivaripalem,Open Area,,B.Subba Rattamma: 9603294746
+271,06-27-2020,27,6,2020,,13.5768,80.0372,K.Naresh,782777202895.0,Daily wage Labour,Male,27.0,Tirupati,Tada,                                                       ,Venkatadripalem      ,Under Tree,,7200073386.0
+272,06-28-2020,28,6,2020,,18.095354,83.354939,Boda Venkata Ramana,,Village Volunteer,Male,25.0,Vizianagaram,Vizianagaram,,Jonnavalasa,Open Area,,
+273,06-29-2020,29,6,2020,,,,Ravuri Rani,,,Female,30.0,Guntur,Mangalagiri,Atmakur Rural,,,,
+274,06-30-2020,30,6,2020,,18.476325,83.112453,CHY Yejjipurapu Chakri,407793552917.0,Student,Male,13.0,Parvathipuram Manyam,Pachipenta,Pachipenta,,Open Area,,Yejjipurapu.Nagatalli: 8886879478
+275,06-30-2020,30,6,2020,,15.7334,80.1381,Bellamkonda Anjali,,Agricultural Labour,Female,38.0,Prakasam,Korisapadu,Rachapudi,,Open Area,,
+276,07-23-2020,23,7,2020,,15.842663,80.418269,Gonaboyina Pedda Subba Rao,623786128321.0,Daily wage Labour,Male,54.0,Bapatla,Chirala,,Gavinivaripalem,Under Tree,,G.Venkateswaramma: 9866336557
+277,07-23-2020,23,7,2020,,15.842663,80.418269,Dabbakuti Yesu Babu,405090886595.0,Daily wage Labour,Male,40.0,Bapatla,Chirala,,Gavinivaripalem,Open Area,,Dabbakuti SriLakshmi: 9704472169
+278,07-27-2020,27,7,2020,,18.742726,83.894887,Korrayi.Sarvan,286683724836.0,Student,Male,11.0,Alluri Sitharama Raju,Koyyuru,,Vondru Jola,Near to Shed,,K.Aruna Kumari: 8830597525
+279,07-28-2020,28,7,2020,,18.3323,82.8756,Siragam Ramunaidu,,,Male,29.0,Alluri Sitharama Raju,Araku Valley,Madagada,,,,
+280,07-29-2020,29,7,2020,,13.894163,80.034513,Malli Ravi,210822910238.0,Agricultural Labour,Male,45.0,Tirupati,Chittamur,Yellasiri,,Under Tree,,M.Ramanamma: 9705089040
+281,07-31-2020,31,7,2020,,14.147285,79.845905,Kavati Chinnakka,501039661762.0,Daily wage Labour,Female,34.0,Sri Potti sriramulu Nellore,Gudur,,Divipalem,Under Tree,,K.Dasaoah: 9154639971
+282,08-02-2020,2,8,2020,,18.252611,82.895154,Thangula Munktha,,,Male,46.0,Alluri Sitharama Raju,Araku Valley,Daburangini,,,,
+283,08-23-2020,23,8,2020,,18.0401429,83.1655541,Jami Kanaka Lakshmi,,Agricultural Labour,Female,33.0,Vizianagaram,Lakkavarapukota,Goljam,,Near to Shed,,
+283,09-01-2020,1,9,2020,,,,Godugula Appalanarsa,,,,,Anakapalli,Munagapaka,Vadrapalle,,,,
+284,09-03-2020,3,9,2020,,18.431887,89.476265,Pinninti Pakeeru Naidu,999723728179.0,Agricultural Labour,Male,55.0,Vizianagaram,Merakamudidam,,M.Ravivalasa,Open Area,,Pinninti Rajamma: 9491959870
+286,09-07-2020,7,9,2020,,15.939162,80.013874,Miriyala.Veerayya,699180765831.0,Daily wage Labour,Male,43.0,Bapatla,Martur,Jangamaheswarapuram,,Under Tree,,Miriyala Nagamma:8688071070
+287,09-07-2020,7,9,2020,,13.700535,80.019232,Gaddam Komal,628345453758.0,Student,Male,17.0,Tirupati,Sullurpeta,Konnembattu,,Open Area,,G.Munikrishnaiah: 9666083198
+288,09-07-2020,7,9,2020,,13.700535,80.019232,Gaddem Muniraja,913500570255.0,Student,Male,11.0,Tirupati,Sullurpeta,Konnembattu,,Open Area,,G.Muniramaiah:9701149874
+289,09-07-2020,7,9,2020,,14.956451,79.492567,indla Mala kondayya,620539536201.0,Agricultural Labour,Male,72.0,Sri Potti sriramulu Nellore,Vinjamur,Chakalakonda,,Near to Shed,,Indla Subbamma
+290,09-13-2020,13,9,2020,,17.147351,82.112898,Vedrevu.Babu Rao,912637727421.0,Agricultural Labour,Male,49.0,Kakinada,Peddapuram,Kandrakota,,Open Area,,V.Venkata Lakshmi: 9542324118
+291,09-13-2020,13,9,2020,,17.0147328,82.11291,Kola Venkata Ramana,285392465869.0,Agricultural Labour,Male,48.0,Kakinada,Peddapuram,Kandrakota,,Open Area,,K.Veera Ganilakshmi: 9951352448
+292,09-14-2020,14,9,2020,,16.3175,81.2446,Katta Leela Krishna Vamsi,394497615581.0,Student,Male,23.0,Krishna,Bantumilli,Arthamuru,,Open Area,,T.Srinivasa Rao:9581871201
+293,09-29-2020,29,9,2020,,16.935043,80.250597,Rogandla.Garudachalam,671429139403.0,Daily wage Labour,Male,47.0,NTR,Vatsavai,,Patha Veemavaram,Open Area,,9014083862.0
+294,09-29-2020,29,9,2020,,16.133044,79.655464,Maddam.Anjamma,208154261761.0,Daily wage Labour,Female,57.0,Palnadu,Bollapalli,Vellatur,,Open Area,,6304626579.0
+295,10-04-2020,4,10,2020,,17.73375,83.01374,Moili Murali,,,Male,14.0,Anakapalli,Anakapalle,,Papayya palem,,,
+296,10-08-2020,8,10,2020,,15.91906,80.22509,Yarrakula Lakshmi,572914046163.0,Daily wage Labour,Female,44.0,Bapatla,inkollu,,Vankayalapadu,Open Area,,
+297,10-09-2020,9,10,2020,,13.721235,79.675359,Thondu Subramanyam,725993691538.0,Mechanic(APSRTC),Male,36.0,Tirupati,Srikalahasti,,Kothapalli mitta,Under Tree,,T.Gowri: 9502020550
+298,04-14-2021,14,4,2021,4.30 PM,13.485715,78.561813,P.Venkatramana,458734754826.0,Agricultural Labour,Male,55.0,Annamayya,Pileru,,Reddyvaripalle,Open Area,BPL,7337052721.0
+299,04-18-2021,18,4,2021,4.00 PM,19.114662,84.629759,Asi jaya,889785588145.0,Volunteer,Female,28.0,Srikakulam,Ichchapuram,Loddaputti,,under tree,BPL,7095233237.0
+300,04-18-2021,18,4,2021,4.30 PM,84.63009,19.032331,Korada Gowramma,610317035734.0,Agricultural Labour,Female,47.0,Srikakulam,Kaviti,,Landariputtuga,under tree,,
+301,04-18-2021,18,4,2021,3.00 PM,18.42254,83.25139,Barlla Dhalinaidu,511803817073.0,Agricultural Labour,Male,45.0,Parvathipuram Manyam,Seethanagaram,,Nidagallu,Open Area,BPL,9949034650.0
+302,04-20-2021,20,4,2021,6.45 PM,15.06319095,78.26438297,Shaik Reshma,870564502554.0,Daily wage Labour,Female,20.0,Nandyal,Sanjamala,Mikkinenipalle,,,,
+303,04-22-2021,22,4,2021,3.30 PM,15.199627,79.455657,Chunchu Ramaiah,589499855356.0,Agricultural Labour,Male,53.0,Prakasam,Ponnaluru,Ippagunta,,Open Area,BPL,9908245713.0
+304,04-22-2021,22,4,2021,4.00 PM,15.222375,79.756333,Konduri Ramaiah,748122035272.0,Agricultural Labour,Male,50.0,Prakasam,Ponnaluru,Chouta Palem,,Open Area,BPL,8897913798.0
+305,04-23-2021,23,4,2021,4.00 PM,18.352041,83.694292,Avidi Nagaamani,615019911050.0,Daily wage Labour,Female,42.0,Srikakulam,Ganguvarisigadam,Chettupodilam,,Open Area,BPL,8008656635.0
+306,04-23-2021,23,4,2021,4.45 PM,18.340498,83.6255312,Bammidi Ramu,461532785207.0,Sheepred,Male,42.0,Srikakulam,Ganguvarisigadam,Bathuva,,Open Area,BPL,9490430730.0
+307,04-23-2021,23,4,2021,4.45 PM,18.340498,83.6255312,Chandapu.MahaLaxmu Naidu,717348019338.0,Sheepred,Male,21.0,Srikakulam,Ganguvarisigadam,Bathuva,,Open Area,BPL,9866215293.0
+308,04-23-2021,23,4,2021,1.10 PM,18.564731,84.156248,Kelli.Appanna,743301420739.0,Farmer,Male,75.0,Srikakulam,kotabommali,Chinasana,,Open Area,BPL,8374931541.0
+309,04-23-2021,23,4,2021,4.00 PM,16.316658,79.850514,Malapati Sampoornamma,248142873793.0,House Wife,Female,45.0,Sri Potti sriramulu Nellore,Chejerla,,maipatevari kandrika,Open Area,BPL,9493826003.0
+310,04-23-2021,23,4,2021,3.00 PM,15.121895,79.839166,Yarragarla. Madhava,693801629565.0,Sheepred,Male,26.0,Prakasam,Voletivaripalem,,Lingannapalem,Under Tree,BPL,6304102204.0
+311,04-23-2021,23,4,2021,4.00 PM,15.07368,78.26314,J.Pedda Kullayappa,660611219268.0,Sheepred,Male,69.0,Nandyal,Allagadda,Peddachintakunta,,,,
+312,04-28-2021,28,4,2021,6.00 PM,15.364895,78.872407,Nagireedy.Ramana Reddy,992855970644.0,Ex.Service Man,Male,50.0,Markapur,Giddalur,Kristam Setti Palle,,Open Area,APL,9989139591.0
+313,05-03-2021,3,5,2021,6.00 PM,,,Budda Kantarao,,,,50.0,,,,,,,
+314,05-04-2021,4,5,2021,3.00 PM,18.290345,83.335881,Marothu.Appalaswamy,78286876059.0,Daily wage Labour,Male,50.0,Vizianagaram,Gajapathinagaram,,Puritipenta,Sound (House),BPL,8341363532.0
+315,05-04-2021,4,5,2021,4.00 PM,15.4922,77.44991,Uppara Verendra,841656076968.0,,,25.0,Kurnool,Aspari,,Attekallu Majara Inakallu,,,
+316,05-04-2021,4,5,2021,2.30 PM,-,-,Salina.Gopayya,513168069452.0,Sheepred,Male,70.0,Srikakulam,Palasa,,Makannapalli,Under Tree,BPL,9618610052.0
+317,05-09-2021,9,5,2021,5.10 PM,18.55929992,83.37915478,Pyla Ramana,521136973564.0,Farmer,Male,42.0,Vizianagaram,Bobbili,Gollapalli,,Open Area,BPL,
+318,05-10-2021,10,5,2021,4.00 PM,15.466124,77.07605,Boya Bhogaraju,859744524319.0,Farmer,Male,31.0,Kurnool,Holagunda,Peddahyta,,Under Tree,BPL,7396174423.0
+319,05-10-2021,10,5,2021,4.00 PM,15.466124,77.07605,Boya Mallamma,716499207334.0,Farmer,Male,29.0,Kurnool,Holagunda,Peddahyta,,Under Tree,BPL,7396174423.0
+320,05-10-2021,10,5,2021,4.00 PM,15.466124,77.07605,Boya Revathi,205244458982.0,Farmer,Female,11.0,Kurnool,Holagunda,Peddahyta,,Under Tree,BPL,7396174423.0
+321,05-10-2021,10,5,2021,5.30 PM,,,Dokkri.Meaganadham,282746559816.0,Student,Male,20.0,Srikakulam,Kanchili,,Madhupuram,Open Area,BPL,
+322,05-10-2021,10,5,2021,5.30 PM,18.891224,84.5561164,Sivangi Rajulamma,352532183496.0,Agricultural Labour,Male,49.0,Srikakulam,Sompeta,Korlam,,Open Area,BPL,9008724272.0
+323,05-11-2021,11,5,2021,12.30 PM,15.313747,78.230832,Vikas,738814930640.0,Student,Male,11.0,Nandyal,Banaganapalli,,Kondapeta,Sound (House),APL,9494508510.0
+324,05-11-2021,11,5,2021,5.00 PM,15.2038194,77.335981,H.Ayyanna,681654474415.0,Daily wage Labour,Male,37.0,Kurnool,Chippagiri,Chippagiri,,Under Tree,BPL,7416026944.0
+325,05-11-2021,11,5,2021,3.30 PM,-,-,Veera Nagappa,405933170132.0,Farmer,Male,46.0,Kurnool,Kosigi,,Doddi Belagal,Under Tree,BPL,9505269931.0
+326,05-12-2021,12,5,2021,1.00 PM,14.885483,78.875949,Obugani. Lakshmi Devi,238304881351.0,Daily wage Labour,Female,40.0,YSR Kadapa,Brahmamgarimattam,Mallepalle,,House,BPL,8008053127.0
+327,05-13-2021,13,5,2021,5.30 PM,18.020126,83.21608,Bara Ramanamma,537360185192.0,House Wife,Female,24.0,Vizianagaram,Jami,Ramabhadrapuram,,Open Area,BPL,
+328,05-13-2021,13,5,2021,,,,Kandula. Srinivasa Rao,,,Male,53.0,Palnadu,Nadendla,,Appapuram,,,
+329,05-13-2021,13,5,2021,3.30 PM,16.4328,80.2412,Arava. Ashok,934608852980.0,Student,Male,17.0,Palnadu,Sattenapalli,Pedamakkena,,Shock,BPL,7680835199.0
+330,05-17-2021,17,5,2021,12.45 PM,14.853404,80.028754,Gollapalli.Haranath,401572736158.0,Daily wage Labour,Male,32.0,Sri Potti sriramulu Nellore,Kavali,Thallapalem,,Shock,BPL,9391513470.0
+331,05-21-2021,21,5,2021,2.00 PM,19.09745,84.63761,Tippana Prasanth,436042081916.0,Agricultural Labour,Male,27.0,Srikakulam,Ichchapuram,Birlangi,,Open Area,BPL,7752006960.0
+332,05-22-2021,22,5,2021,3.30 PM,18.613468,83.451481,Gunta Chinnarao,828666845591.0,Daily wage Labour,Male,38.0,Vizianagaram,Bobbili,Chintada,,Under Tree,BPL,9676365688.0
+333,05-22-2021,22,5,2021,3.30 PM,18.613468,83.451481,Ajari Chinnarao,289362441040.0,Daily wage Labour,Male,41.0,Vizianagaram,Bobbili,Chintada,,Under Tree,BPL,9346467197.0
+334,05-22-2021,22,5,2021,3.30 PM,18.613468,83.451481,Sankili Thoudu,306721659813.0,Daily wage Labour,Male,45.0,Vizianagaram,Bobbili,Chintada,,Under Tree,BPL,8367428280.0
+335,05-22-2021,22,5,2021,4.00 PM,18.167641,83.567424,Gompa Suri,801515512552.0,Sheepred,Male,25.0,Vizianagaram,Nellimarla,,Sathivada,Open Area,BPL,7675950030.0
+336,05-22-2021,22,5,2021,4.30 PM,-,-,Patchigulla Tharun,971417714780.0,Student,Male,19.0,Vizianagaram,Vizianagaram,,KL Puram,House,BPL,89783437715.0
+337,05-29-2021,29,5,2021,3.30 PM,,,KurmapuLaxmidevi,,,,40.0,Srikakulam,Narasannapeta,,Ambajipeta,,,
+338,06-02-2021,2,6,2021,4.15 PM,-,-,Reddy.Narasaiah,-,Agricultural Labour,Male,40.0,NTR,Vijayawada Rural,,Nunna,Open Area,No,9849903975.0
+339,06-02-2021,2,6,2021,,,,Koppula.Hari Krishna,,Student,Male,13.0,Eluru,Musunuru,,,Under Tree,,
+340,06-02-2021,2,6,2021,9.30 PM,-,-,Chandrasekhar Reddy,,,Male,50.0,Kurnool,Adoni 1,,Chinnaharivanam,Open Area,,
+341,06-05-2021,5,6,2021,3.45 PM,,,Yekula Munindra Babu,,,Male,30.0,Palnadu,Atchampet,Konuru,,,,
+342,06-05-2021,5,6,2021,4.30 PM,16.39579,80.0841022,Manchala Kotaiah,836728057676.0,Cowherd,Male,65.0,NTR,Chandarlapadu,Kasarabada,,Open Area,BPL,-
+343,06-05-2021,5,6,2021,5.45 PM,13.54507,78.49421,S.Roshna Jameer,414462632445.0,Auto Driver,Male,24.0,Annamayya,Madanapalle,,Kothapalle,Open Area,BPL,-
+344,06-07-2021,7,6,2021,4.10 PM,18.412103,83.2749068,Routhu. Kondala Rao,739376478198.0,Farmer,Male,43.0,Parvathipuram Manyam,Seethanagaram,,Sumitrapuram,Open Area,BPL,8341739728.0
+345,06-08-2021,8,6,2021,6.45 PM,18.070081,83.336021,T.Viswanadham,412755134589.0,Civil Mesentery worker and Supervisor,Male,44.0,Vizianagaram,Vizianagaram,,Jonnavalasa,Under Tree,BPL,9121621545.0
+346,06-08-2021,8,6,2021,6.45 PM,18.153325,83.388153,Sudikonda Venkata Rao,444443087699.0,Daily wage Labour,Male,49.0,Vizianagaram,Vizianagaram,Kondakarakam,,Under Tree,BPL,6304382432.0
+347,06-09-2021,9,6,2021,4.15 PM,18.776005,84.083958,Regeti Vasantha Rao,,,Male,79.0,Srikakulam,Pathapatnam,Gopalapuram,,,,
+348,06-16-2021,16.0,6.0,2021,7.00 PM,15.749474,79.844598,Lokireddy Naga Sreena Reddy,921203804421.0,Agricultural Labour,Male,51.0,Prakasam,Thallur,,Gollapeta,Open Area,BPL,
+349,06-16-2021,16.0,6.0,2021,7.00 PM,15.749474,79.844598,Lokireddy Siva Shankar Reddy,832070620427.0,Farmer,Male,21.0,Prakasam,Thallur,,Ramanalavaripalem,Open Area,BPL,9391121732.0
+350,6-30-2021,30.0,6.0,2021,4.30 PM,16.330956,80.66269,Kandukuri. Ankamma Rao,335680878603.0,Student,Male,23.0,Guntur,Kollipara,Vallabahpuram,Ramanalavaripalem,Under Tree,BPL,9391121732.0
+351,6-30-2021,30.0,6.0,2021,4.30 PM,16.330956,80.66269,Bollimuntha Srinivasa Rao,2695569858982.0,Agricultural Labour,Male,50.0,Guntur,Kollipara,Vallabahpuram,,Under Tree,BPL,
+352,6-30-2021,30.0,6.0,2021,3.30 PM,19.074662,84.709759,Neelapu Eswari,383492829856.0,Agricultural Labour,Female,32.0,Srikakulam,Ichchapuram,Eedupuram,,Open Field,BPL,9154526106.0
+353,7-01-2021,1.0,7.0,2021,3.00 PM,18.899297,83.820124,Savara Suneetha,477566597410.0,Agricultural Labour,Female,21.0,Srikakulam,Bhamini,Gajapathinagaram,,Open Area,BPL,7989053704.0
+354,7-06-2021,6.0,7.0,2021,1.40 PM,15.489,77.2828,Golla Kamala,468822786862.0,Daily wage Labour,Female,28.0,Kurnool,Nandavaram,Mugathi,,Under Tree,BPL,9676382411.0
+355,7-07-2021,7.0,7.0,2021,4.30 PM,18.629656,84.288782,Eegala Jogayya,586816276679.0,Agricultural Labour,Male,75.0,Srikakulam,Nandigam,Lakhidasupuram,,Open Area,BPL,9182493532.0
+356,07-07-2021,7,7,2021,3.30 PM,18.411078,83.9070889,Pinninti Sanyasirao,475667530409.0,Agricultural Labour,Male,65.0,Srikakulam,Regidiamadalavalasa,Adavaram,,Open Area,BPL,9100113558.0
+357,7-08-2021,8.0,7.0,2021,3.00 PM,15.8327233,77.160016,Kanchera.Mallaiah,921947915668.0,Agricultural Labour,Male,19.0,Kurnool,Kowthalam,Chitrapalli,,Under Tree,BPL,7702852796.0
+358,7-09-2021,9.0,7.0,2021,11.30 AM,16.355826,80.520328,Kusam Venkata Reddy,329422074039.0,Sheepred,Male,70.0,Guntur,Pedakakani,Namburu,,Open Area,BPL,9700467038.0
+359,7-10-2021,10,7,2021,4.00 PM,18.716877,83.657953,Nimmaka Prasad,558422748258.0,Agricultural Labour,Male,43.0,Srikakulam,Veeraghattam,Kumbidi Itchapuram,,Under Tree,BPL,7670882706.0
+360,7-17-2021,17,7,2021,4.40 PM,16.1144,79.7583,Nilapati Siva Narayana,989209364563.0,Farmer,Male,67.0,Guntur,Ipuru,Kondramutla,,Open Area,BPL,8790241182.0
+361,07-18-2021,18,7,2021,4.30 PM,15.664652,80.074792,Vetagiri.Srinivasarao,337845458575.0,Sheepred,Male,37.0,Prakasam,Naguluppulapadu,H.Nidamanuru,,Shock,BPL,9059728843.0
+362,08-13-2021,13,8,2021,4.00 PM,18.071919,83.376366,Polimera Yerribabu,769784916369.0,Civil Mesentery worker,Male,31.0,Vizianagaram,Vizianagaram,"Gollalapeta, Sarika",,Under Tree,BPL,-
+363,08-13-2021,13,8,2021,4.00 PM,18.071919,83.376366,Sarika Suresh,996272822672.0,Civil Mesentery worker,Male,27.0,Vizianagaram,Vizianagaram,"Gollalapeta, Sarika",,Under Tree,BPL,-
+364,08-15-2021,15,8,2021,3.00 PM,18.2538,83.1731,Yasarla Sankara Rao,276205568092.0,Agricultural Labour,Male,69.0,Vizianagaram,Ramabhadrapuram,Kotharega,,Open Area,BPL,-
+365,08-15-2021,15,8,2021,,,,Kondru.Ramu,,Farmer,Male,50.0,Vizianagaram,Mentada,Kuntinavalasa,,OPEN PLACE,BPL,8501017392.0
+366,08-25-2021,25,8,2021,3.30 PM,-,-,Smt.Kandipalli. Padma,-,Farmer,Female,28.0,Vizianagaram,Srungavarapu Kota,Revalle Palem,,Open Area,,-
+367,08-27-2021,27,8,2021,4.30 PM,18.320349,83.965837,Gondu.Gannemma,942846200251.0,Daily wage Labour,Female,45.0,Srikakulam,Gara,Pilakapeta,,Open Area,BPL,9381773252.0
+368,09-10-2021,10,9,2021,14:00PM,19.0002,84.59,Dupapana Rajeswari,319150347255.0,Agricultural Labour,Female,42.0,Srikakulam,Kanchili,Ampuram,,Agricultural Land,BPL,9701844701.0
+369,09-10-2021,10,9,2021,,,,Chetta Droupadi,,,Female,42.0,Srikakulam,Kanchili,Chinna Kojjiriya,,,,
+370,09-10-2021,10,9,2021,3.00 PM,18.67323,84.40975,Battini Mallesu,774728826850.0,Farmer,Male,40.0,Srikakulam,Vajrapukotturu,Kondavuru,,,BPL,9182813684.0
+371,09-20-2021,20,9,2021,4.30 PM,15.4419108,798.9496256,Sri Rama Rammohan rao,460270099121.0,Farmer,Male,44.0,Prakasam,Tangutur,Konijedu,,Open Area,APL,9640624024.0
+371,09-20-2021,20,9,2021,,,,Peesa Veeramma,,Farmer,Female,,Srikakulam,Burja,Kollivalasa,,Open Area,BPL,
+371,09-20-2021,20,9,2021,,,,Arika Anand,,Farmer,Male,,Parvathipuram Manyam,Seethampeta,thumbakonda,,Open Area,BPL,
+371,09-20-2021,20,9,2021,,,,Sanapathi.Atchutharao,,Farmer,Male,,Vizianagaram,Merakamudiam,Gadabavalasa,,Open Area,BPL,
+372,09-25-2021,25,9,2021,3.45 PM,18.840582,83.84502,Kotilingala Gopala Krishna,692251123236.0,Agricultural Labour,Male,51.0,Vizianagaram,Bhamini,Ghanasara,,BESIDE TREE,BPL,9553378345.0
+376,09-25-2021,25,9,2021,5.30 PM,18.365121,83.314771,Neyigapula Chinnammadu,341191847372.0,Agricultural Labour,Female,65.0,Srikakulam,Vangara,Vangara,,IN PADDY FIELD,BPL,9553378345.0
+377,09-25-2021,25,9,2021,3.00 PM,-,-,Sarvasiddhi Nooka Raju,572018203565.0,Sheepred,Male,65.0,Visakhapatnam,Gajuwaka,Aganampudi,,Open Area,BPL,9963338258.0
+378,10-04-2021,4,10,2021,2.30 PM,18.74101897,84.03153283,Gedela Narasamma,879651160794.0,Agricultural Labour,Female,61.0,Srikakulam,Pathapatnam,Makivalasa,,AT AGRICULTURE FIELD,BPL,9676872886.0
+379,10-09-2021,9,10,2021,6.00 PM,18.002359,83.451412,Jaga Ramulu,911749486339.0,Sheepred,Male,53.0,Vizianagaram,Denkada,Akkivaram,,Near House,BPL,6304125823.0
+380,10-09-2021,9,10,2021,15:00PM,18.39064,83.55827,Thulugu Suryanarayana,637842044368.0,Agricultural Labour,Male,41.0,Vizianagaram,Merakamudidam,Garugubilli,,OPEN FIELD,BPL,6301823585.0
+381,10-23-2021,23,10,2021,15:00PM,-,-,Gottam Venkata Reddy,929952683797.0,Agricultural Labour,Male,60.0,Prakasam,Pedaaraveedu,Pedaaraveedu,,Open Area,BPL,9392336424.0
+382,10-24-2021,24,10,2021,14:30PM,14.6,77.03,B Mohan Naik,819487868601.0,Daily wage Labour,Male,41.0,Ananthapur,Brahmasamudram,Bommavanipallivankathanda,,OPEN AREA,BPL,9182500063.0
+383,10-24-2021,24,10,2021,14:30PM,14.6,77.03,Ghatu Thimmanna,382745844892.0,Daily wage Labour,Male,80.0,Ananthapur,Brahmasamudram,Bommavanipallivankathanda,,OPEN FIELD,BPL,939087056.0
+384,10-30-2021,30,10,2021,,,,Ravula Sidaiah,,,Male,30.0,Guntur,Veldurthi,Gottipall,,,,
+385,10-30-2021,30,10,2021,14:30PM,16.632535,79.653105,B. Rama rao,688080275801.0,Daily wage Labour,Male,55.0,Guntur,Gurjala,Pulipadu,,Open Area,BPL,7780617076.0
+387,04-17-2022,17,4,2022,,,,dasari Adavi Raju,928940566235.0,,Male,27.0,Markapur,Giddalur,,"Thallapalle
+",Under Tree,BPL,"D.Venkata lakshmamma, Ph:9000120620"
+388,04-21-2022,21,4,2022,,,,Kanigeni Urukundamma,795155424744.0,Daily wage Labour,Female,33.0,Kurnool,Adoni 2,Kuppagal,,Under Tree,BPL,K.Thimma reddy Ph.No:6304837465
+389,04-21-2022,21,4,2022,,,,Kanigeni Lakshmamma,365787527406.0,Daily wage Labour,Female,39.0,Kurnool,Adoni 2,Kuppagal,,Under Tree,BPL,Chirtapalli sreedevi Ph.No:8179616634
+390,04-21-2022,21,4,2022,,,,Gorava Chandranna,258610771147.0,Farmer,Male,27.0,Kurnool,Holagunda,Vandavagali,,Under Tree,BPL,Gorava Parvathi PH.No:9494400065
+391,04-21-2022,21,4,2022,,,,Pedda Tayanna,811300542614.0,Farmer,Male,20.0,Kurnool,Holagunda,Vandavagali,,Under Tree,BPL,Basetty Vemanna Ph.No:9000724908
+392,04-25-2022,25,4,2022,,,,Sagina Satyanarana,82064303480.0,Student,Male,19.0,Alluri Sitharama Raju,G.K. Veedhi,,"Suravaram
+",Under Tree,BPL,
+393,04-25-2022,25,4,2022,,,,Chunduru sridevi,780974732843.0,,Female,42.0,Polavaram,Yetapaka,Tripura Penta Veedu,,Under Tree,BPL,Bachineni Malleswara rao Ph.No:9182311809
+394,04-30-2022,30,4,2022,,,,Andugupati Mallaiah,541270589320.0,Daily wage Labour,Male,40.0,Markapur,Pullalacheruvu,Satha Kodu,,Under Tree,BPL,"Andu gulapati Sridevi, PH:7569587078"
+395,05-01-2022,1,5,2022,,,,Polineni Venkata Swamy,565703393581.0,Farmer,Male,58.0,YSR Kadapa,TSundupalle,,Gadda Meeda Palli,Under Tree,BPL,"P. Nageswaramma, Ph:8522818839"
+396,05-03-2022,3,5,2022,,,,M.Bujjamma,209062487062.0,Daily wage Labour,Female,46.0,Chittoor,Baireddipalle,,M.Kothuruh,Sound& Shock,BPL,"Mareppa, PH:8179858627"
+397,05-03-2022,3,5,2022,,,,Y.Bujjamma,922731311310.0,Daily wage Labour,Female,42.0,Chittoor,Baireddipalle,,M.Kothuruh,Sound& Shock,BPL,"Palani mani, PH:9550657596"
+398,05-04-2022,4,5,2022,,,,Vankudawat Vagya Nayak,,,Male,,Palnadu,Durgi,,Gajapuram,,,
+399,05-04-2022,4,5,2022,,,,Putla Amaraiah,945311297860.0,Student,Male,16.0,Palnadu,Macherla,Kambhampadu,,Beside Tree,BPL,Venkateswarlu
+400,05-08-2022,8,5,2022,,,,Gudipudi SatyaNarayana,454884525861.0,Farmer,Male,38.0,Palnadu,Bellamkonda,,Kandipadu,Fields,BPL,Purna phn .No:7326933611
+401,05-09-2022,9,5,2022,,,,P.Basappa,628576850589.0,Farmer,Male,35.0,Kurnool,Holagunda,Suluvoy,,Under Tree,BPL,P Basamma Phn No:6281970881
+402,05-11-2022,11,5,2022,,,,Gummadi Ramesh,918055490470.0,Farmer,Male,36.0,Sri Potti sriramulu Nellore,Jaladanki,Brahmanakraka,,Open Fields,BPL,Phn.No:9949235720
+403,05-12-2022,12,5,2022,1.00 PM,14.885483,78.875949,Obugani Lakshmi Devi,238304881351.0,Daily wage Labour,Female,40.0,YSR Kadapa,Brahmamgarimattam,Mallepalle,,Open Fields,BPL,
+404,05-16-2022,16,5,2022,,,,Nallabothu Hanumanthu,382781034723.0,Sheepred,Male,56.0,YSR Kadapa,Duvvur,Duvvur,,Under Tree,BPL,Nallabothu Obulamma Phn .No:7780115560
+405,05-16-2022,16,5,2022,,,,Settipalle Muni Rao,560977260025.0,Sheepred,Male,32.0,YSR Kadapa,Duvvur,Duvvur,,Under Tree,BPL,Settipalle Chinn Munaiah Phn.No:984988187
+406,06-05-2022,5,6,2022,,,,Reddivari Prabhakar Reddy,854497092817.0,Farmer,Male,51.0,Annamayya,Chowdepalle,,Chinnakampalle,Beside Tree,BPL,R jayapradha(Wife) PH:8142290902
+407,06-06-2022,6,6,2022,,,,Kari Hari,664841527913.0,Agricultural Labour,Male,17.0,Vizianagaram,Bhogapuram,,Chepala Kancheru,Fields,BPL,Kari Sattiymma (Mother) ph:9059938296
+408,06-11-2022,11,6,2022,,,,sunnamaddi sundararao,5395626553308.0,,Male,62.0,Srikakulam,Ichchapuram,Purushottapuram,,Beside Tree,BPL,Sunnamaddi Nanditha
+409,06-12-2022,12,6,2022,,,,Biddika Ramprasad,6032 4109 0234,Student,Male,19.0,Parvathipuram Manyam,Kurupam,Gujjuvai,,House,BPL,Baddika Bashkar Rao 9440095680
+410,06-12-2022,12,6,2022,,,,Biddika Ravindrandh,7266 8549 6067,Student,Male,21.0,Parvathipuram Manyam,Kurupam,Gujjuvai,,House,BPL,Baddika Bashkar Rao 9440095680
+411,06-13-2022,13,6,2022,,,,Ramala Nagaraju,611753666630.0,Daily wage Labour,Male,38.0,NTR,Vijayawada Rural,,Nunna ,Beside Tree,BPL,Ramala Sirisha
+412,06-14-2022,14,6,2022,,,,Kmari Malla Dibara,549681928592.0,Student,Male,10.0,Bapatla,Martur,Martur,,House,BPL,"Malla Kotaiah, 9391314060"
+413,06-15-2022,15,6,2022,,,,Muddada.Padmanabham,633535361530.0,Agricultural Labour,Male,54.0,Srikakulam,Sarubujjili,Chiguruvalasa,,Agriculturl fields,BPL,Muddada Chinnammadu(Wife)8074645624
+414,06-15-2022,15,6,2022,,,,Nethinti Govind Rao,237522272301.0,Agricultural Labour,Male,45.0,Srikakulam,Sarubujjili,Chiguruvalasa,,Agriculturl fields,BPL,Nethinti Sridevi
+415,06-20-2022,20,6,2022,,,,Smt. Bammidi Laxmi,8471 5894 3448,Sheepred,Female,38.0,Vizianagaram,Gurla,Ragolu,,Agriculturl fields,BPL,W/o Rajodu
+416,07-01-2022,1,7,2022,,,,smt koyyana sanyasi,738734375799.0,Farmer,Male,61.0,Vizianagaram,Jami,Kumaram,,Agriculturl fields,BPL,S/o Late Yerrayya
+417,07-24-2022,24,7,2022,,,,vetagiri chenchaiah,485553971764.0,Daily wage Labour,Male,37.0,Tirupati,Pellakur,Udipudi,,House,BPL,
+418,07-24-2022,24,7,2022,,,,Vetagiri Sravani,,,Female,7.0,Tirupati,Pellakur,Udipudi,,House,BPL,Tupakula Eswariah
+419,08-01-2022,1,8,2022,,,,Smt Jada Venkata Ramanjamma,6710 1338 2796,Farmer,Female,30.0,Prakasam,Mundlamuru,Edara,,Open Area,BPL,"Jads Srinivasarao Husband , 8184920018"
+420,08-01-2022,1,8,2022,,,,Sri Alakunta China Ramulu,8003 9032 1882,Farmer,Male,52.0,Prakasam,Mundlamuru,Edara,,Open Area,BPL,
+421,08-01-2022,1,8,2022,,,,Sri Pothireddy Pichireddy,7799 8448 9311,Farmer,Male,50.0,Prakasam,Mundlamuru,Edara,,Open Area,BPL,"Wife Pothireddy Kotamma , 9542876519"
+422,08-02-2022,2,8,2022,,,,vanthala Sanyasi Rao,,Farmer,Male,35.0,Alluri Sitharama Raju,Pedabayalu,Injari,,Open Area,BPL,
+423,08-02-2022,2,8,2022,,,,Khastri Ram Singh S/o Bala Singh,3084 7027 6997,Sheepred,Male,36.0,Palnadu,Krosuru,Thalluru,,Open Area,BPL,Anjali Bai (Wife) & 9951673923
+424,08-04-2022,4,8,2022,,,,Chinnalacchi Pujitha,4945 0241 1733,Daily wage Labour,Female,19.0,Nandyal,Dhone,Shotrium Valasala,,Open Area,BPL,"Chinna Lachi Venkata Krishna,9959882510"
+425,08-17-2022,17,8,2022,,,,KUNAPUREDDI SRINIVAS S/O SATYANARAYANA,9922 9121 8912,Daily wage Labour,Male,20.0,Eluru,Lingapalem,Bhogole,,OPEN AREA,BPL,KUNAPUREDDI SATYANARAYANA
+426,08-17-2022,17,8,2022,,,,VARUPULA DHARMA RAJU S/O CHAKRA RAO,4619 1393 5643,Daily wage Labour,Male,26.0,Eluru,Lingapalem,Bhogole,,OPEN AREA,BPL,VARUPULA VEERA VENKATA RAMANA &7729888253
+427,08-17-2022,17,8,2022,,,,RAYUDU RAJU S/O CHANDRA RAO,5031 4495 5410,Daily wage Labour,Male,30.0,Eluru,Lingapalem,Bhogole,,OPEN AREA,BPL,RAYUDU CHAKRAM
+428,08-17-2022,17,8,2022,,,,"GUTTULA KONDA BABU,S/O APPA RAO",9576 6882 4304,Daily wage Labour,Male,35.0,Eluru,Lingapalem,Bhogole,,OPEN AREA,BPL,GUTTULA NOOKA RAJU
+429,08-30-2022,30,8,2022,,,,Manga Ramana S/O Appalu,984901399835.0,Farmer,Male,51.0,Anakapalli,Chodavaram,Gowripatnam,,OPEN AREA,BPL,Manda Vara Lakshmi(wife) 9100158766
+430,08-30-2022,30,8,2022,,,,Killo suri,378627302346.0,,Male,10.0,Alluri Sitharama Raju,Dumbriguda,Gondiguda,,TREE,BPL,k.manader 6304350604
+431,09-02-2022,2,9,2022,,,,Arja. Seetharavamma,5124 9352 5016,Daily wage Labour,Female,36.0,Krishna,,,Sivaganga,OPEN AREA,BPL,"9951358860, 9391061827"
+432,09-03-2022,3,9,2022,,,,Smt. Murukurthi Ramanamma,5395 3407 2926,Daily wage Labour,Female,37.0,Vizianagaram,Vepada,Vallampudi,,OPEN AREA,BPL,"kumari ravathi (minor doughter) 12 years age & 7287864542, 9100147370"
+433,09-03-2022,3,9,2022,,,,Vrri Satyam s/o Ram Murthy,,Daily wage Labour,Male,46.0,Vizianagaram,Jami,Jami,,OPEN AREA,BPL,9347628908.0
+434,09-04-2022,4,9,2022,,,,Bnduru Hanumappa,4252 3075 5188,Farmer,Male,40.0,Ananthapuramu,D.Hirehal,,Charlapalli,OPEN AREA,BPL,"Wife . Banderu Rathnamma, P.N . 9573433296"
+435,09-06-2022,6,9,2022,,,,Chukka Simhachalam,,Farmer,Male,,Parvathipuram Manyam,Makkuva,Turumamidi,,OPEN AREA,BPL,Wife Smt Chukka Subba lakshmi
+436,09-13-2022,13,9,2022,,,,Kolli Vanajanabham,8185 5114 4786,Agricultural Labour,Male,41.0,Srikakulam,Nandigam,,,OPEN AREA,BPL,Kolli menaka (wife) phone no. 7207514520
+437,09-14-2022,14,9,2022,,,,SK moulali S/o Nuhidi Sahed,226446619559.0,,Male,44.0,Palnadu,Atchampet,Chintapalle,,OPEN AREA,BPL,
+438,09-30-2022,30,9,2022,,,,Mallamma Nagamani,9896 3087 4131,Agricultural Labour,Female,30.0,Guntur,Prathipadu,Prathipadu,,OPEN AREA,BPL,Sri MallamSrinivasarao(Husband)- 9392230954
+439,10-05-2022,5,10,2022,,,,Mahankali Chandrasekar,451660152332.0,Farmer,Male,42.0,Palnadu,Machavaram,Pinnelli,,Fields,BPL,Mahankali Siva Pravathi& 9603466396
+440,10-17-2022,17,10,2022,,,,Darala appalakonda,857602643931.0,Farmer,Male,51.0,Kakinada,Tuni,Kothuru,,Fields,BPL,"1. Allu Venkatalakshmi, W/o. Appalaraju 2. Sapakshi Varalakshmi, W/o. Vijay 3. Darla Raju, S/o Kondababu 4.Darala Babji, S/o Kondababu"
+441,10-19-2022,19,10,2022,,,,Mallireddy Nagireddy,,,Male,,YSR Kadapa,Muddanur,Penikalapadu,,,BPL,
+442,03-16-2023,16,3,2023,15:00:00,16.53959,79.29986,"Ramavath Saida Naik, S/o Rathan Naik",292022176459.0,Sheepred,Male,16.0,Palnadu,Macherla,,Chinthalatanda,Open Area,BPL,"Ramavath Rathan Naik (Father), 9989324651 & 8096146109"
+443,03-16-2023,16,3,2023,21:02:00,15.3386,78.5607,Rachakuntla Anjaneyulu,3141 6927 5253,Daily wage Labour,Male,43.0,Nandyal,Sirvel,Mahadevapuram,,Open Area,BPL,
+444,03-16-2023,16,3,2023,18:00:00,13.643886,78.7815,K. Jahangeer S/o Late Basha Saheb,488237709504.0,Employee,Male,45.0,Annamayya,Kalikiri,Kalikiri,,Below Tree,BPL,K.Nayeem & 9392695042
+445,03-16-2023,16,3,2023,16:30:00,16.016793,79.331562,Polu Venkateswarlu,630271144687.0,Daily wage Labour,Male,41.0,Markapur,Yerragondapalem,Gollavidipi,,Open Area,BPL,9573247920.0
+446,03-18-2023,18,3,2023,18:00:00,14.7756803,79.7854577,Pandilla palli Sri Vidya,8015 0861 8620,Agricultural Labour,Female,38.0,Sri Potti sriramulu Nellore,Kaligiri,Ananthapuram,,Shed,BPL,6281129202.0
+447,03-19-2023,19,3,2023,17:00:00,13.776404,79.88147,Nagamunthala ramanaiah S/o Murali,907922717411.0,Agricultural Labour,Male,48.0,Tirupati,Doravarisatram,Vedurupattu,,Open Area,BPL,Nagamunthala Chandrasekhar & 6304933072
+448,03-26-2023,26,3,2023,13:45:00,15.665494,78.350268,Tummaluru Venkataramana,442563575662.0,Sheepred,Male,45.0,Nandyal,Gadivemula,Gani,,Open Area,BPL,Smt T. Shobha Ran(wife)/8688729572
+449,04-12-2023,12,4,2023,16:05:00,18.296747,82.746019,Pangi Joyyo,694963601909.0,Agricultural Labour,Male,27.0,Alluri Sitharama raju,Dumbriguda,,Ujjangi,Open Area,BPL,Pangi Dhanerao & 8328209686
+450,04-21-2023,21,4,2023,3.30PM,,,KUPPAM PADMA,505166034933.0,Daily wage Labour,Female,43.0,Tirupati,Varadaiahpalem,Kurinjalam,,Open Area,BPL,7075366284.0
+451,04-22-2023,22,4,2023,16:30:00,,,Bongarla Apparao S/O B.Simhachalam,595041842709.0,Daily wage Labour,Male,47.0,Vizianagaram,Srungavarapukota,Mamidipalle,,Open Area,BPL,8688090487.0
+452,04-23-2023,23,4,2023,13:00:00,16.02816,80.941373,Mjatthi Venkata Kanaiah,664512109602.0,Agricultural Labour,Male,53.0,Krishna,Avanigadda,,Ramachandrapuram,Open Area,BPL,Matthi Jayalakshmi
+453,04-23-2023,23,4,2023,12.30pm,16.118955,80.93942,Masthan,488176723188.0,Daily wage Labour,Male,57.0,Krishna,Challapalli,Challapalli,,Open Area,BPL,9000425146.0
+454,04-23-2023,23,4,2023,12.30PM,16.118751,80.94775,Kolluri Nancharamma,720379421977.0,Farmer,Female,87.0,Krishna,Challapalli,Lakshmipuram,,Open Area,BPL,9491110936.0
+455,04-23-2023,23,4,2023,11.20PM,16.2259,81.2142,kunasani venkateswararao,627539752606.0,Farmer,Male,68.0,Krishna,Kruthivennu,,seetanapalli,Open Area,BPL,9000404281.0
+456,04-23-2023,23,4,2023,8.30 pm,14.884146,80.022694,palakeethi branamaiah,2805436416.0,Farmer,Male,31.0,Sri Potti sriramulu Nellore,Kavali,Thallapalem,,Open Area,BPL,8096227881.0
+457,04-23-2023,23,4,2023,14:30:00,16.150723,80.364194,Chatla Shyam Babu,918514652980.0,Agricultural Labour,Male,48.0,Guntur,Prathipadu,,Pathamallayapalem,Open Area,BPL,Chatla Suvarna W/o shyam babu & 9035949751
+458,04-23-2023,23,4,2023,14:30:00,16.150723,80.364194,Korivi Krupadanam,592608188445.0,Agricultural Labour,Male,54.0,Guntur,Prathipadu,,Pathamallayapalem,Open Area,BPL,Korivi Annamma W/o Krupadanam & 868825171
+459,04-24-2023,24,4,2023,16:00:00,18.352202,83.333213,Nagiredddi Appalaswami,9178470022209.0,Agricultural Labour,Male,63.0,Vizianagaram,Gajapathinagaram,Gudivada,,Open Area,BPL,8179802085.0
+460,04-24-2023,24,4,2023,17:45:00,18.131777,83.406996,Pandranki Israel,537822897305.0,Student,Male,21.0,Vizianagaram,Vizianagaram,Gajularega,,Open Area,BPL,"Sri Pandranki Yak+N37ab & ph.No: 9550752853,9347342742"
+461,04-25-2023,25,4,2023,16:00:00,,,Marada Appalanaidu,270794308417.0,Agricultural Labour,Male,48.0,Vizianagaram,Bobbili,,Dibbagudivalasa,Open Area,BPL,8374489057.0
+462,04-30-2023,30,4,2023,3.50pm,,,Ravella pullaiah,919164904271.0,Farmer,Male,70.0,Markapur,Tripuranthakam,Madhavani Palle,,,BPL,9490329063.0
+463,04-30-2023,30,4,2023,3.00 PM,16.52806,80.226085,kadiayam venkatrao,776939994227.0,Employee,Male,38.0,Palnadu,Krosuru,Bayyavaram,,Below Tree,BPL,7416357534.0
+464,05-05-2023,5,5,2023,,,,Perikaka Jyothi,,,Female,42.0,Guntur,Phirangipuram,Sirangipalem,,,,
+465,05-05-2023,5,5,2023,3.00 PM,14.437922,79.882942,POTTURI IAKSHMAIAH,8333 9853 27s4,Agricultural Labour,Male,42.0,Sri Potti sriramulu Nellore,Nellore Rural,,Kommarapudi,Open Area,BPL,8333 9853 27s4
+466,05-06-2023,6,5,2023,05.00 pm,,,sri Chintalacheruvu kotaiah,,Agricultural Labour,Male,55.0,NTR,Jaggaihapeta,Kowthavari Agraharam,,,,
+467,05-06-2023,6,5,2023,3-4 PM,13.455288,79.696666,M Damu,620698248660.0,Farmer,Male,57.0,Tirupati,"Kumara Venkata
+Bhupala Puram",,kotamangapuram,Open Area,BPL,8828580655.0
+468,05-08-2023,8,5,2023,2.45 PM,15.358688,77.355776,Sri Gopini Nounepati,597722130246.0,Agricultural Labour,Male,41.0,Kurnool,Alur,Molagavalli,,Open Area,BPL,8790693110.0
+469,05-08-2023,8,5,2023,1.30 pm,15.367109,77.959281,VULUVA LAKSHIDEVI,534483245168.0,Agricultural Labour,Female,35.0,Nandyal,Dhone,,yerraguntla,Below Tree,BPL,9014785150.0
+470,05-08-2023,8,5,2023,05.15 pm,15.9270757,78.30649318,kuruva Avula vishnu,262584115796.0,Student,Male,18.0,Nandyal,Pagidyala,,bollaram,Below Tree,BPL,9989845026.0
+471,05-11-2023,11,5,2023,,,,G.Narayana,,,Male,,Annamayya,Lakkireddipalli,,Chowatpalli,,,
+472,05-11-2023,11,5,2023,05.30PM,,,Prakruthi Srinivas,581990085654.0,Student,Male,22.0,Kakinada,Samalkota,,Samalakota,Open Area,BPL,
+473,05-16-2023,16,5,2023,04.10pm,,,Nagamuntalal harinadh,264573861274.0,Daily wage Labour,Male,42.0,Tirupati,Renigunta,R. Mallavaram,,Open Area,BPL,952734361.0
+474,05-16-2023,16,5,2023,4.00PM,18.036911,83.294456,Pandranki apparao,822374413258.0,Farmer,Male,40.0,Vizianagaram,Jami,Bheemasingi,,Open Area,BPL,9347267469.0
+475,05-21-2023,21,5,2023,4.50PM,15.109252,78.896311,Kakarla Gurappa,230952783878.0,Daily wage Labour,Male,45.0,YSR Kadapa,Kalasapadu,Tellapadu,,Below Tree,BPL,9441087960.0
+476,05-25-2023,25,5,2023,4.30 pm,25.05.2023,18.799207,Ganta parvathamma,592084644868.0,Daily wage Labour,Male,53.0,Parvathipuram Manyam,,,,Open Area,BPL,9381781858.0
+477,05-27-2023,27,5,2023,,,,Smt.Akula Ramadevi,,Agricultural Labour,Female,,Sri Potti sriramulu Nellore,Marripadu,Peddamachanuru,,Open Area,BPL,
+478,05-27-2023,27,5,2023,4.05 pm,,,Avula Naresh,522914208425.0,Daily wage Labour,Male,28.0,Sri Potti sriramulu Nellore,,,,Open Area,BPL,
+479,05-28-2023,28,5,2023,4.30 PM,14.881777,77.79146,vadde Gowri shankar,777424785112.0,Daily wage Labour,Male,19.0,Ananthapuramu,Singanamala,Ullikallu,,Open Area,BPL,9951434574.0
+480,05-28-2023,28,5,2023,4.30 PM,14.881777,77.79146,Vadde balakrishna,977958344618.0,Daily wage Labour,Male,30.0,Ananthapuramu,Singanamala,Ullikallu,,Open Area,BPL,9550589920.0
+481,05-30-2023,30,5,2023,12.30 pm,15.3641,80.061,E.Ravanamma,875800774898.0,Daily wage Labour,Male,45.0,Prakasam,Naguluppalapadu,Chadalawada,,beside the tree,BPL,
+482,06-01-2023,1,6,2023,05.20 pm,15.0844,78.3227,B. Chakravarthi,776802365449.0,Student,Male,20.0,Nandyal,Uyyalawada,Thudumuladinne,,Below Tree,BPL,9133632024.0
+483,06-04-2023,4,6,2023,05.00 PM,18.481515,83.816909,Nakka Padmavathi,676044227745.0,Daily wage Labour,Female,55.0,Srikakulam,Burja,,Labham,Open Area,APL,8374002785.0
+484,06-04-2023,4,6,2023,5.30 PM,18.3111,84.04016,koyyanna chinnappana,901532243927.0,Daily wage Labour,Male,46.0,Srikakulam,Gara,,koyyanapeta ,Open Area,BPL,7032501651.0
+485,06-19-2023,19,6,2023,04.00 am,18.2746,83.343,K. Appanna,874198092672.0,Sheepred,Male,54.0,Vizianagaram,Bondapalli,Tamatada,,Open Area,BPL,9642587541.0
+486,06-29-2023,29,6,2023,3.40 pm,18.2364,83.5989,P. Seethamma,515808548954.0,Daily wage Labour,Female,50.0,Vizianagaram,Garividi,Konuru,,Open Area,BPL,9491342375.0
+487,07-04-2023,4,7,2023,4.15 pm,,,Chingam Mandi,,Daily wage Labour,Male,20.0,Anakapalli,Ravikamatham,Kavagunta,,Open Area,,
+487,07-05-2023,5,7,2023,4.30 pm,18.513504,83.446,V. Sridevi,875407737859.0,Farmer,Male,39.0,Vizianagaram,Badangi,P.Venkampeta,,Open Area,BPL,8978290943.0
+488,07-06-2023,6,7,2023,,,,Gurana Mahalaxmi Naidu ,,,,,Sri Potti sriramulu Nellore,Varikuntapadu,Yerramreddipalle,,,,
+490,08-31-2023,31,8,2023,3.30 PM,,,Anil,,Sheepred,Male,23.0,Ananthapuramu,D.Hirehal,Dodagatta,,,,
+491,09-26-2023,26,9,2023,4.30 PM,16.967625,81.049244,Songa Devamatha,592397746707.0,Daily wage Labour,Female,45.0,Eluru,Lingapalem,Patchanagaram,,Open Area,BPL,8553999919.0
+492,09-26-2023,26,9,2023,4.30 PM,16.967625,81.049244,Songa Manisha,318349801615.0,Daily wage Labour,Female,22.0,Eluru,Lingapalem,Patchanagaram,,Open Area,BPL,9390885129.0
+493,09-26-2023,26,9,2023,1.30 to 2.00 PM,16.405212,80.324724,Smt. Dodda suvatha,369746521739.0,Daily wage Labour,Female,45.0,Guntur,Medikonduru,Mandapadu,,fields,BPL,7013337482.0
+494,09-26-2023,26,9,2023,1.30 to 2.00 PM,16.405212,80.324724,Smt. Male Prabhavathi,450236969821.0,Daily wage Labour,Female,17.0,Guntur,Medikonduru,Mandapadu,,fields,BPL,9666859351.0
+495,10-03-2023,3,10,2023,7.00 PM,16.125529,80.138386,Aluri Aroghyam,973455343294.0,Daily wage Labour,Male,58.0,Palnadu,Chilakaluripet,,lingamguntla,Below Tree,BPL,9848199008.0
+496,10-03-2023,3,10,2023,7.00 PM,16.125529,80.138386,Syed Ameer,554664817006.0,Daily wage Labour,Male,28.0,Palnadu,Chilakaluripet,,lingamguntla,Below Tree,BPL,9666046305.0
+497,11-07-2023,7,11,2023,05.10 PM,16.498333,79.754218,Dasari Gangaiah,240016264256.0,Daily wage Labour,Male,79.0,Palnadu,Karempudi,Chinagarlapadu,,Agriculture fields,BPL,9959461640.0
+498,03-20-2024,20,3,2024,04.00 pm,16.7073,81.127,Ravuri satyanarayana,,Agricultural Labour,Male,44.0,Eluru,Eluru,Chodimella,,,BPL,
+499,03-20-2024,20,3,2024,04.00 pm,16.96036,82.2381,Patheti Mahesh,987444002045.0,Farmer,Male,28.0,Kakinada,Prathipadu,,T Rayavaram,Open Area,BPL,
+500,04-08-2024,8,4,2024,04.00 pm,18.4971,82.4812,Korra Sukdev,791607476373.0,Farmer,Male,26.0,Alluri Sitharama Raju,Munchingiputtu,Kirrambo,,Below Tree,BPL,
+502,04-18-2024,18,4,2024,,,,Boya Vinod ,,,Male,,Ananthapuramu,,,,,,
+503,04-19-2024,19.0,4.0,2024,23:30:00,15.6302,78.4536,Golla Sekhar,506184067000.0,Sheepred,Male,49.0,Nandyal,Gadivemula,Chindukuru,,Open Area,BPL,
+504,05-07-2024,7,5,2024,,16.015336,79.907909,Jammula. Gopi,,,Male,35.0,Palnadu,Narasaraopet,Mulakalur,,,,
+505,05-07-2024,7.0,5.0,2024,3.00 PM,16.9678,80.9811,Parsa. Ramarao,398822253366.0,Daily wage Labour,Male,44.0,Eluru,Lingapalem,Yedavalli,,Open Area,BPL,9912484705.0
+506,05-07-2024,7.0,5.0,2024,3.15 pm,17.1271,81.2096,Karipothu. Nageswarao,420813330832.0,Daily wage Labour,Male,76.0,Eluru,Jangareddigudem,Jangareddigudem,,Open Area,BPL,7386715326.0
+507,05-07-2024,7,5,2024,05.15 pm,16.571199,80.207143,Bomdhala. Nagedramma,,Daily wage Labour,Female,54.0,Palnadu,Krosuru,Vutukuru,,,BPL,
+508,05-07-2024,7,5,2024,05.15 pm,16.571199,80.207143,Bomdhala.Nagarani,,,Female,34.0,Palnadu,Krosuru,Vutukuru,,,BPL,
+509,05-07-2024,7,5,2024,06.30 pm,16.2783,80.0681,Avula.Koteswarao,889199111544.0,Farmer,Male,42.0,Palnadu,Muppalla,,Kunduruvari palem,Below Tree,BPL,9701254768.0
+510,05-09-2024,9,5,2024,,17.016192,81.737275,Kavala. Nageswara Rao,,,Male,35.0,East Godavari,Kovvur,Kovvuru,,,,
+511,05-18-2024,18,5,2024,4.30 pm,16.2407,79.8491,Karri . Hanumantha rao,896151119958.0,Farmer,Male,40.0,Palnadu,Ipuru,Muppalla,,,BPL,9963838515.0
+512,05-18-2024,18,5,2024,4.30PM,16.0073,79.5222,Alugasani Narayana,503698346208.0,Farmer,Male,39.0,Markapur,Tripuranthakam,,DVN Colony,Open Area,BPL,9391766220.0
+513,05-19-2024,19,5,2024,3.10 pm,13.4383,79.5519,C.Anbu Kumar,659611324748.0,Farmer,Male,45.0,Tirupati,puttur,,krishnasamudram,Open Area,BPL,8074323790.0
+514,06-02-2024,2,6,2024,,16.178604,80.27566,Chiratala Srinu,,,Male,50.0,Palnadu,Edlapadu,Unnava,,Below Tree,BPL,
+515,06-02-2024,2,6,2024,,16.178604,80.27566,Chinna veeraya,,Agricultural Labour,Male,50.0,Palnadu,Edlapadu,Unnava,,Below Tree,BPL,
+516,06-02-2024,2,6,2024,06.30 pm,17.5368,83.0902,Kambala Mutyaalu,248284320564.0,,Male,48.0,Anakapalli,Paravada,,MUTYALAMMAPALEM,Open Area,BPL,6309539963.0
+517,06-02-2024,2,6,2024,,,,Pole Raju,,Fisherman,Male,21.0,Visakhapatnam,,,KOTHAAGRAHARA,Open Area,BPL,
+518,06-07-2024,7,6,2024,4.30 Pm,15.1401,79.4085,Gandham Thomas,696724667842.0,Farmer,Male,71.0,Markapur,Pamur,Chilamkur,,,BPL,
+519,06-07-2024,7,6,2024,,,,Nadendla Raveendra Babu,,Agricultural Labour,Male,,Sri Potti sriramulu Nellore,Varikuntapadu,Yerramreddipalle,,Open Area,BPL,
+520,06-14-2024,14,6,2024,3.15 pm,18.633459,83.591645,Seetharam Veeraindi,747254458316.0,Daily wage Labour,Male,36.0,Vizianagaram,Vangara,Madduvalasa,,Open Area,BPL,8917543672.0
+521,06-14-2024,14,6,2024,4.00 pm,17.561453,82.197912,Kolli Nagababu,469362786432.0,Daily wage Labour,Male,32.0,Polavaram,Rajavommangi,Lagarayi,,Below Tree,BPL,
+522,06-15-2024,15,6,2024,4.30 Pm,17.779146,82.755693,Sree Rajana Pentayya,720877375198.0,Daily wage Labour,Male,46.0,Anakapalli,Ravikamatham,,Arjapuram,Agriculture fields,BPL,9966422003.0
+523,06-16-2024,16,6,2024,6.20 pm,15.306696,77.604026,Uligitti Sunkanna,9393 2936 1321,Sheepred,Male,31.0,Kurnool,Tuggali,Chennampalle,,Open Area,BPL,9346766722.0
+524,06-16-2024,16,6,2024,6.20 pm,15.306696,77.604026,Uligitti Kameswari,5745 4829 8162,Sheepred,Male,35.0,Kurnool,Tuggali,Chennampalle,,Open Area,BPL,9492958286.0
+525,06-24-2024,24,6,2024,4.30 Pm,18.16,83.2517,Bodanki Yernaidu,228180307074.0,Farmer,Male,47.0,Vizianagaram,Gantyada,Vasadi,,Open Area,BPL,6305374896.0
+526,06-26-2024,26,6,2024,3.30 pm,17.913311,82.81289,Bhavani Sankar,,,Male,22.0,Anakapalli,Madugula,Gadirai,,Agriculture fields,BPL,
+527,08-19-2024,19,8,2024,1.30 PM,16.5733,80.2605,Bolagani Venkateswararao,995770488796.0,Agricultural Labour,Male,26.0,NTR,Gampalagudem,Penugolanu,,Below Tree,BPL,9912960248.0
+528,08-28-2024,28,8,2024,2.05 PM,16.092,80.6781,VareTirupatamma,71960849210.0,Daily wage Labour,Female,35.0,Bapatla,Amruthalur,Panchalavaram,,Open Area,BPL,7675935004.0
+529,08-28-2024,28,8,2024,5.00 pm,19.94,84.4036,Sadi Janakamma,980075858947.0,Agricultural Labour,Female,51.0,Srikakulam,Ichchapuram,Muchindra,,Open Area,BPL,8885141459.0
+529,09-06-2024,6,9,2024,,,,Vangalapudi Ramulamma,,,,,Anakapalli,Sabbavaram,Gollalapalem,,,,
+530,09-06-2024,6,9,2024,14:30:00,17.4413,83.0411,Sri Rakoti Arjuna,709280711462.0,Agricultural Labour,Male,,Anakapalli,Anakapalle,,Koduru,,BPL,9398694288.0
+532,09-06-2024,6,9,2024,,17.6167,83.0033,Smt Godugula Appalanarasa,,,Male,,Anakapalli,Munagapaka,Vadrapalle,,,BPL,
+533,09-26-2024,26,9,2024,11.00 AM,17.8906,82.9993,Sureddi Appalanaidu,491472397654.0,Farmer,Male,35.0,Anakapalli,Devarapalle,,Kothapenta,Open Area,BPL,9550606875.0
+534,09-29-2024,29,9,2024,6.30 A.M. to 7.00 A.M.,13.9892,77.7703,V. Dasara Naik,5793 1488 9643,Farmer,Male,50.0,Sri Sathya Sai,Gorantla,Gangampalle,,Open Area,BPL,
+535,09-29-2024,29,9,2024,6.30 A.M. to 7.00 A.M.,13.9892,77.7703,V. Devi Bai,7755 0501 6329,Farmer,Male,45.0,Sri Sathya Sai,Gorantla,Gangampalle,,Open Area,BPL,
+536,09-30-2024,30,9,2024,,,,M.Gangamma,,,Female,,Ananthapuramu,,,,,,
+537,10-03-2024,3,10,2024,05.45 P.M,14.4731,78.5668,Nandhireddy Siva Parvathi,303860896356.0,Farmer,Female,30.0,YSR Kadapa,Pendlimarry,Tummalur,,Below Tree,BPL,6302507640.0
+538,10-03-2024,3,10,2024,05.45 P.M,14.4731,78.5668,Nandhireddy Tejeswar Reddy,79103002627.0,Farmer,Male,10.0,YSR Kadapa,Pendlimarry,Tummalur,,Below Tree,BPL,9573733828.0
+539,10-03-2024,3,10,2024,05.45 P.M,14.473,78.5668,G.Maruthi Prasad Reddy,554141873090.0,Student,Male,30.0,YSR Kadapa,Pendlimarry,Tummalur,,Open Area,BPL,6281613502.0
+540,10-03-2024,3,10,2024,07.00 AM,15.8966,80.4604,Nuthakki Tulasi,939682606820.0,Student,Female,19.0,Bapatla,Chirala,,Death occurred at Chiralangar Village,,BPL,9515067016.0
+541,10-06-2024,6,10,2024,,,,R Sankar,,,Male,,Ananthapuramu,Singanamala,,Peddakunta,,,
+542,10-07-2024,7,10,2024,01.55 PM,13.5043,78.4623,Settipalli.Malliswari,868965525710.0,Agricultural Labour,Female,49.0,Annamayya,Sambepalli,Sho.Somavaram,,Open Area,BPL,9052704320.0
+543,10-07-2024,7,10,2024,01.55 PM,13.5043,78.4623,Settipalli.Shankaramma,549943797194.0,Agricultural Labour,Female,48.0,Annamayya,Sambepalli,Sho.Somavaram,,Open Area,BPL,9581609962.0
+544,10-18-2024,18,10,2024,11.30 AM,13.32,79.861,Mekals Subramanyam,288665148859.0,Agricultural Labour,Male,55.0,Tirupati,Pithatur,Shamsheer Bahadurpeta,,Open Area,BPL,9677879002.0
+545,10-18-2024,18,10,2024,11.30 AM,13.32,79.861,Nandipattu Ramaiah,576734204458.0,Agricultural Labour,Male,60.0,Tirupati,Pithatur,Shamsheer Bahadurpeta,,,BPL,9159483926.0
+546,10-19-2024,19,10,2024,,,,Gaddam Hanumantha Rao,,,Male,,Palnadu,,,,,,
+547,10-20-2024,20,10,2024,03.00 PM,,,Jyotha Nagaraju,8147 1447 6690,Farmer,Male,48.0,Annamayya,Kambhamvari Palle,,Nadimpalli,,,
+548,10-30-2024,30,10,2024,05.15 PM,16.8098,81.6384,Vegirothu Srivalli,662403512844.0,Daily wage Labour,Female,36.0,East Godavari,Undrajavaram,Pasalapudi,,,BPL,9949636284.0
+549,10-30-2024,30,10,2024,05.15 PM,16.8098,81.6384,Gummadi Sunitha,401892625391.0,Daily wage Labour,Female,35.0,East Godavari,Undrajavaram,Pasalapudi,,,BPL,8328367581.0
+550,10-30-2024,30,10,2024,05.15 PM,16.8098,81.6384,Vipparti Venkateswara Rao,747271127849.0,Daily wage Labour,Male,56.0,East Godavari,Undrajavaram,Pasalapudi,,,BPL,6303023621.0
+551,10-30-2024,30,10,2024,05.15 PM,16.8098,81.6384,Kadiyam Kumari,675548418596.0,Daily wage Labour,Female,48.0,East Godavari,Undrajavaram,Pasalapudi,,,BPL,9866464959.0
+552,10-30-2024,30,10,2024,05.15 PM,16.8098,81.6384,Seelam Lakshmi Durga,699457813694.0,Daily wage Labour,Female,50.0,East Godavari,Undrajavaram,Pasalapudi,,,BPL,8985522658.0
+553,10-30-2024,30,10,2024,05.15 PM,16.8098,81.6384,Mandalanka Kamalaratnam,41532199910.0,Daily wage Labour,Female,47.0,East Godavari,Undrajavaram,Pasalapudi,,,BPL,9347289742.0
+554,10-30-2024,30,10,2024,05.15 PM,16.8098,81.6384,Chukka Peddintlu,448951863105.0,Daily wage Labour,Female,45.0,East Godavari,Undrajavaram,Pasalapudi,,,BPL,9618861690.0
+555,11-15-2024,15,11,2024,01.30 PM,15.5763,77.0549,K.Anusuya,2330 9078 2124,Agricultural Labour,Female,36.0,Kurnool,Holagunda,Gajjehalli,,Open Area,BPL,
+556,11-16-2024,16,11,2024,12.40 PM,14.6482,79.814,Chittiboina Venkateswarlu,5666 4263 9753,Agricultural Labour,Male,50.0,Sri Potti sriramulu Nellore,Sangam,Marripadu,,Agriculture fields,BPL,7097914712.0
+557,12-04-2024,4,12,2024,04.30 PM,14.4588,78.6838,Perla Parvathi,723800540508.0,Agricultural Labour,Female,38.0,YSR Kadapa,Pendlimarry,,Yenuguvaripalli,Agriculture fields,BPL,
+558,04-30-2024,,,2024,,,,Chittiboina Muniswamy,,,Male,,YSR Kadapa,Proddatur,Kothapalle,Meenpuram,,,
+559,04-03-2025,3,4,2025,02.00 PM,,,Boya Ravi Allas kothirala Ravi,5215 3230 2033,Agricultural Labour,Male,12.0,Kurnool,Yemmiganur,Kandanathi,,Open Area,BPL,
+560,04-03-2025,3,4,2025,18:00:00,,,Smt.Butta Indraja,,Daily wage Labour,Female,25.0,Ananthapuramu,Guntakal,Konganapalle,,,,
+561,04-08-2025,8,4,2025,06.00 PM,16.98,81.42,Yelagani Satyanarayana,240899980068.0,Electrician,Male,48.0,East Godavari,Nallajerla,Ananthapalle,Krishnaamma Gudem,,BPL,Yalagani Durga
+562,04-16-2025,16,4,2025,05.30 PM,,,Noorammagaari Rabiya,7464 7029 5246,Daily wage Labour,Male,65.0,Kurnool,Chippagiri,Yerur,,Open Area,BPL,
+563,04-20-2025,20,4,2025,04.30 PM,,,Gosipathula Akash,,Student,Male,18.0,Markapur,Bestavaripeta,Peda Obeneni Palle,,,,
+564,04-20-2025,20,4,2025,04.30 PM,,,Pulugujju Sunny,,Student,Male,16.0,Markapur,Bestavaripeta,Peda Obeneni Palle,,,,
+565,04-20-2025,20,4,2025,01.00 PM,,,Golla Kotturu Eranna,4507 9669 3382,Employee,Male,28.0,Kurnool,Peddakadubur,Hissara Murvari,Hanumapuram,Open Area,BPL,
+566,04-20-2025,20,4,2025,16:00:00,,,Dandu Bhanu Obulesu,,Daily wage Labour,Male,22.0,YSR Kadapa,Peddamudium,Garisaluru,,,,
+567,04-27-2025,27,4,2025,2.30 PM,,,Thalari Balaiah,6992 0634 1097,Agricultural Labour,Male,20.0,Kurnool,Kowthalam,Katriki,,Open Area,BPL,
+568,04-27-2025,27,4,2025,2.30 PM,,,Telugu Ashok,6814 0317 4693,Agricultural Labour,Male,21.0,Kurnool,Kowthalam,Katriki,,Open Area,BPL,
+569,04-27-2025,27,4,2025,,,,Boya Sreenivulu,3852 2381 0811,Agricultural Labour,Male,,Kurnool,Krishnagiri,Katarakonda,,Open Area,BPL,
+570,04-30-2025,30,4,2025,01.00 PM,,,Kerangi Kiran,,Student,Male,9.0,Vizianagaram,Srungavarapukota,,Porlu,,,
+571,04-30-2025,30,4,2025,07.30 PM,,,Chittiboina Muniswamy,,Agricultural Labour,Male,49.0,YSR Kadapa,Proddatur,,Meenapuram,,,
+572,05-01-2025,1,5,2025,,,,Mekala Nageswar,,,Male,26.0,Y.S.R Kadapa,Jammalamadugu,Gollapalli,,,,
+573,05-02-2025,2,5,2025,03.15PM,13.8,79.08,Kotakonda Ramana,424427427282.0,Daily wage Labour,Male,59.0,Tirupati,Yerravaripalem,Bodevandlapalle,,,,
+574,05-04-2025,4,5,2025,05.45PM,14.2,79.56,Thatiboina Chinaiah,802222420048.0,Farmer,Male,49.0,Sri Potti sriramulu Nellore,Rapur,Raviguntapalle,,,BPL,63033356434.0
+575,05-04-2025,4,5,2025,01.00 PM,,,Kondapi Nagamalleswarrao,,Sheepred,Male,40.0,Prakasam,Naguluppalapadu,Edumudi,,,,
+576,05-04-2025,4,5,2025,11.30 AM,,,Matangi Suparedeep,,Daily wage Labour,Male,23.0,Bapatla,Kolluru,Gajullanka,,,,
+577,05-04-2025,4,5,2025,1.00PM,,,Gaddam Brahmaiah,,Daily wage Labour,Male,45.0,Bapatla,Chinaganjam,,Sopirala,,,
+578,05-04-2025,4,5,2025,1.30PM,,,Nukasani Sireesha,,Sheepred,Female,20.0,Prakasam,Ongole Rural,Devaram Padu,,,,
+579,05-04-2025,4,5,2025,03.30 PM,13.9,79.855,Allam Bhaskar,762479757520.0,Farmer,Male,54.0,Tirupati,Naidupet,Vaddigunta Khandrika,,,BPL,Allam Muneela
+580,05-04-2025,4,5,2025,04.00 PM,13.93,79.86,Mariboyina Karthik,663391071317.0,Children,Male,10.0,Tirupati,Naidupet,,Gollapalem,,BPL,"Maruboyina Pradeedp
+9849666249"
+581,05-04-2025,4,5,2025,05.30 PM,,,Reddy Munaiah,,Daily wage Labour,Male,44.0,Tirupati,Vakadu,Pulikorru @ Balireddipalem,,,,
+582,05-04-2025,4,5,2025,1.00PM,80.76,16.17,Vadde Anjeyulu,--,Sheepred,Male,22.0,Bapatla,Kolluru,,karapa,,BPL,Venkatesh
+583,05-06-2025,6,5,2025,06.30PM,16.68,79.77,Banawath Siva Naik,456080148132.0,Student,Male,19.0,Palnadu,Dachepalli,Madinapadu,,,BPL,"Banavathu Sri Ramulu Naik
+8317588100"
+584,05-06-2025,6,5,2025,06.30PM,,,N.Shankar,,Daily wage Labour,Male,36.0,Tirupati,Srikalahasti,Uranduru,,,,
+585,05-06-2025,6,5,2025,06.30PM,,,Janda Murali,,Daily wage Labour,Male,50.0,Tirupati,Srikalahasti,Uranduru,,,,
+586,05-07-2025,7,5,2025,2.30 AM,,,Koppala Venkata Subbanna,,Sheepred,Male,33.0,YSR Kadapa,Vallur,,Seethorupalli,,,
+587,05-07-2025,7,5,2025,,,,Ontipuli Ankamma,,Daily wage Labour,Female,,Guntur,Pedanandipadu,Uppalapadu,,,,
+588,05-08-2025,8,5,2025,5.30pm,,,Gatla chinnama,580712156451.0,Agricultural Labour,Female,59.0,Palnadu,Narasaraopet,Narasaraopet (M),,,BPL,
+589,05-10-2025,10,5,2025,,,,Borra Veeralakshmi,,,Female,46.0,East Godavari,Tallapudi,Annadevarapeta,,,BPL,
+590,05-12-2025,12,5,2025,3.50 PM -             4.00 PM,,,Erudia Nathan David,,,Male,26.0,Tirupati,Tada,Tada,,,,
+591,05-12-2025,12,5,2025,5.30pm,,,Dasari Appanna,,Sheepred,Male,50.0,,,,,,,
+592,05-12-2025,12,5,2025,3.30 Pm -4.30 PM,,,Kolli rambabu,,Farmer,Male,45.0,Vizianagaram,Mentada,Puligummi,,,,
+593,05-13-2025,13,5,2025,,,,Boya Sankarbanda,2583 6765 0265,,Male,,Kurnool,Aspari,Mulugundam,,Open Area,BPL,
+594,05-13-2025,13,5,2025,,,,Govindappa,,Sheepred,Male,32.0,Kurnool,Adoni 2,Chinna Harivanam,,Open Area,BPL,
+595,05-13-2025,13,5,2025,4.30PM,,,Mallikarjun Reddy,3292 8773 5536,,Male,,Kurnool,Aspari,Muthkur,,Open Area,BPL,
+596,05-14-2025,14,5,2025,5.00 PM,,,Golla Ramalinga,,Farmer,Male,37.0,Ananthapuramu,Kalyandurg,Manirevu,,,,
+597,05-14-2025,14,5,2025,04.00PM,,,Kuppili Paparao,,Farmer,Male,69.0,Parvathipuram Manyam,Veeraghattam,Chittipudivalasa,,,,
+598,05-14-2025,14,5,2025,5.30PM,,,Shail Parvin,,Daily wage Labour,Male,35.0,Palnadu,Edlapadu,Karuchola,,,,
+599,05-15-2025,15,5,2025,03.30PM,,,B Bala krishna,,Farmer,Male,35.0,Kakinada,Kajuluru,Jagannathagiri,,,,
+600,05-15-2025,15,5,2025,2.00 AM,,,Bobburi Chandra Sekhar,,Sheepred,Male,24.0,Nandyal,Chagalamarri,Thodendlapalle,Thippanapalle,,,
+601,05-16-2025,16,5,2025,06.54PM,,,Savara Chandra rao,,,Male,31.0,Parvathipuram Manyam,Seethampeta,,JP Burjaguda,,,
+602,05-17-2025,17,5,2025,01.00 PM,,,Devara Gangulu,,Sheepred,Male,,Vizianagaram,Gajapathinagaram,Thummikapalle,,,,
+603,05-17-2025,17,5,2025,05.30PM,,,Sri Atla Sreenivasa Reddy,,,Male,,YSR Kadapa,Peddamudium,Suddapalle,Pallavolu,,,
+604,05-17-2025,17,5,2025,7.00PM,,,SK Khadar Basha,,,Male,,Annamayya,Kurabalakota,Angallu,,,,
+605,05-17-2025,17,5,2025,05.30pm,,,Balayapalli Subbaramanaiah ,,,Male,45.0,YSR Kadapa,Chapad,Pallavolu,,,,
+606,05-17-2025,17,5,2025,06.25 PM,,,N.Chalapati Rao,,Sheepred,Male,65.0,Srikakulam,Kothuru,,Gottipalli,,,
+607,05-19-2025,19,5,2025,,,,Bobbilli Appalaswamy,,,Male,,Vizianagaram,Srungavarapukota,,Venkataramana Peta,,,
+608,05-21-2025,21,5,2025,,,,Palla Ankamma Rao,931811267812.0,Sheepred,Male,54.0,Guntur,Chebrolu,Godavarru,,,BPL,Sivanageswarao 9502348753
+609,05-24-2025,24,5,2025,03.30 PM,,,Mochi Laxmipathi,,,Male,24.0,Srikakulam,Nandigam,,,,,
+610,05-27-2025,27,5,2025,4.30pm,,,k sanni babu,,Agricultural Labour,Male,41.0,Vizianagaram,Lakkavarapukota,,kasireddy palem,,,
+611,05-29-2025,29,5,2025,04.00 PM,,,Rekha Ramanji,,Sheepred,Male,45.0,Guntur,Tadikonda,Bandarupalle,,,,
+612,05-30-2025,30,5,2025,05.10 PM,,,Simma Srinu,,Sheepred,Male,,Vizianagaram,Vepada,Krishnarayudupeta,,,,
+613,05-31-2025,31,5,2025,,,,Burada Appalanaidu,,,Male,,Srikakulam,Sarubujjili,Buridivalasa,,,,
+614,05-31-2025,31,5,2025,04.40 PM,,,Peyyala Simhachalam,,Sheepred,Male,60.0,Srikakulam,Kothuru,Akulatampara,,,,
+615,05-31-2025,31,5,2025,05.00 PM,,,Pinninti Ramunaidu,,Farmer,Male,,Vizianagaram,Denkada,Mopada,,,,
+616,06-04-2025,4,6,2025,5.30PM,,,Chinnam Naidu,,Agricultural Labour,Male,57.0,Parvathipuram Manyam,Balijipeta,Palagara,,,,
+617,06-06-2025,6,6,2025,02.00 PM,18.52,83.55,Pudivalasa Venkatamma,433067461446.0,Agricultural Labour,Female,42.0,Vizianagaram,Therlam,Viziarampuram @ Buripeta,,,BPL,9553543829.0
+618,07-17-2025,17,7,2025,04.30 PM,,,Amalagiri. Padma,,Daily wage Labour,Female,48.0,Prakasam,Santhamaguluru,Elchur,,,,
+619,07-17-2025,17,7,2025,2.45 PM,,,Guntur Lourdes Marianne,,Agricultural Labour,Male,75.0,Bapatla,Bhattiprolu,Oleru,,,,
+620,07-24-2025,24,7,2025,13:15:00,,,Allaboina. Srinu,,Daily wage Labour,Male,45.0,Vizianagaram,Regidi Amadavalasa,Venkata Rangaraya Puram,,,,
+621,07-24-2025,24,7,2025,13:45:00,,,Dokkari Veeraswamy,,Daily wage Labour,Male,45.0,Srikakulam,Kotabommali,Duppalapadu,,,,
+622,08-03-2025,3,8,2025,03.30PM,16.0226,81.0249,Ganjala Kondalamma,421674606292.0,Agricultural Labour,Female,29.0,Krishna,Koduru,Ramakrishnapuram,,,,G Veera Babu
+623,08-04-2025,4,8,2025,,,,Oosa Nagendra Babu,,,Male,,Palnadu,Nekarikallu,Kunkalagunta,,,,
+624,08-05-2025,5,8,2025,05.30PM,13.89,77.31,T.Ratnamma,705432062433.0,Sheepred,Female,46.0,Sri Sathya Sai,Madakasira,Haresamudram,,,,Nagaraju
+625,08-07-2025,7,8,2025,02.30 PM,,,INTI SATHYANARAYANA,,Agricultural Labour,Male,56.0,Vizianagaram,Jami,Attada,,,,
+626,08-30-2025,30,8,2025,04.30 PM,,,Nekkala Eswarammma,,Agricultural Labour,Female,35.0,Vizianagaram,Lakkavarapukota,,Vechalapuvanipalem ,,,
+627,09-10-2025,10,9,2025,05.30 PM,,,Bejawada Ramarao,,Agricultural Labour,Male,45.0,Prakasam,Kondapi,,Kattavaripalem,,,
+628,09-13-2025,13,9,2025,2.00PM,,,Devarapalli Samrajyam,,Daily wage Labour,Female,66.0,Guntur,Pedanandipadu,Annaparru,,,,
+629,09-13-2025,13,9,2025,2.00PM,,,Tanneru Nagendram,,Daily wage Labour,Female,55.0,Guntur,Pedanandipadu,Annaparru,,,,
+630,09-13-2025,13,9,2025,2.00PM,,,Dasari Saramma,,Agricultural Labour,Female,39.0,Guntur,Pedakakani,Nambur,,,,
+631,09-13-2025,13,9,2025,2.00PM,,,Dasari Rani,,Agricultural Labour,Female,41.0,Guntur,Pedakakani,Nambur,,,,
+632,09-18-2025,18,9,2025,14:00:00,14.5409,80.0553,Golla Venkaiah,6669 4113 0644,Sheepred,Male,63.0,Sri Potti sriramulu Nellore,Kovur,Vegur,,Open Area,BPL,
+633,09-18-2025,18,9,2025,06.30 PM,,,Savala Vengala Rao,,Agricultural Labour,Male,40.0,Palnadu,Atchampet,Velpuru,,,,
+634,09-18-2025,18,9,2025,08.00 PM,,,Vemireddy Lakshmi Narasa Reddy,,Agricultural Labour,Male,70.0,Prakasam,Marripudi,,Sivarayunipeta,,,
+635,09-19-2025,19,9,2025,04.45 PM to 05.15 PM,13.96,79.92,Adduru Siva Prasad ,449719740824.0,Agricultural Labour,Male,26.0,Tirupati,Naidupet,Kallipedu,,,BPL,"Dasari Bhuwaneswari 
+7416541714"
+636,09-22-2025,22,9,2025,12.00 PM,,,D.Surya Prakasah,,Employee,Male,37.0,Visakhapatnam,Visakhapatnam Rural,Kommadi,,,,
+637,09-23-2025,23,9,2025,14:25:00,,,Palikala Urvasi,,Agricultural Labour,Female,45.0,Srikakulam,Kaviti,Karapadu,,,,
+638,09-23-2025,23,9,2025,14:15:00,,,Kanithi Padmavathi ,,Agricultural Labour,Female,45.0,Srikakulam,Polaki,Vurjam,,,,
+639,09-23-2025,23,9,2025,2.00PM,,,Sri Sunkari Suryanarayana,,Sheepred,Male,63.0,Vizianagaram,Bondapalli,Veduruvada,,,,
+640,09-29-2025,29,9,2025,04.25 PM,,,Koti lingam Harichandrudu,,Agricultural Labour,Male,65.0,Srikakulam,Kothuru,Sirusuvada,,,,
+641,09-30-2025,30,9,2025,06.30PM,,,Badnayini kirthi,,Student,Male,16.0,Alluri Sitharama Raju,Ananthagiri,Cherukumadata,,,,
+642,10-05-2025,5,10,2025,4.00PM,14.81,79.96,Nasina Ramachandraiah,460873211147.0,Daily wage Labour,Male,,Sri Potti sriramulu Nellore,Bogole,Bitragunta,,,BPL,"Nasina Naga Mani
+9381133945"
+643,10-07-2025,7,10,2025,04.30PM to 05.00 pm,,,Sri. Sravan kumar,,Daily wage Labour,Male,,Srikakulam,Meliaputti,Gangarajapuram,,,,
+644,10-07-2025,7,10,2025,04.30PM to 05.00 pm,,,Pintu,,Daily wage Labour,Male,,Srikakulam,Meliaputti,Gangarajapuram,,,,
+645,10-07-2025,7,10,2025,04.30PM to 05.00 pm,,,Hemaraj Meghaval,,Daily wage Labour,Male,,Srikakulam,Meliaputti,Gangarajapuram,,,,
+646,10-08-2025,8,10,2025,4.00PM,,,Giddyyagari Govindappa,,Agricultural Labour,Male,,Ananthapuramu,Kanekal,Garudachedu,,,,
+647,10-10-2025,10,10,2025,03.00 PM,18.36,83.57,Duvva Simmayya,846979850886.0,Agricultural Labour,Male,,Srikakulam,Hiramandalam,,Pindruvada,,BPL,"Duvvu Venkata Ramana
+6305347348"
+648,10-12-2025,12,10,2025,09.30 PM,,,K. Lathish Kumar,,Student,Male,,Chittoor,Chittoor Rural,,Janagalapalli,,,
+649,10-17-2025,17,10,2025,03:30 AM to 04:30 AM.,14.25,79.96,Ammata Masthanaiah,477592020778.0,Daily wage Labour,Male,,Sri Potti sriramulu Nellore,Venkatachalam,Edagali,,,BPL,8861284754.0
+650,10-21-2025,21,10,2025,14:00:00,16.59,79.73,Yedla Manikyam,527426274639.0,Agricultural Labour,Male,,Palnadu,Dachepalli,Dachepalle,,,BPL,
+651,10-21-2025,21,10,2025,16:00:00,16.59,79.97,Maturi Jakaraiah,754275876305.0,Agricultural Labour,Male,,Palnadu,Bellamkonda,Mannesultanpalem,,,BPL,
+652,10-21-2025,21,10,2025,12:10:00,,,Valaparla Mariyamma,,Agricultural Labour,Female,40.0,Guntur,Ponnur,,Itikampadu,,,
+653,10-21-2025,21,10,2025,12:10:00,,,Shaik Mujishida,,Agricultural Labour,Male,54.0,Guntur,Ponnur,,Itikampadu,,,
+654,03-18-2026,18,3,2026,14:00:00,16.05416847,80.77601258,Peravali Vanaja,692099853317.0,Agricultural Labour,Female,33.0,Bapatla,Bhattiprolu,Pallekona,,Open Area,BPL,8519835893.0
+655,03-18-2026,18,3,2026,04:30 PM to 5.00 PM,15.981325,79.612991,Katuri Subbarathnam,425301333617.0,Agricultural Labour,Female,51.0,Palnadu,Nuzendla,Chintala Cheruvu,,Open Area,BPL,9398394450.0
+656,03-21-2026,21,3,2026,04.00 PM,16.514905,80.378592,Nallagorla Vijay Kumar ,4137 0407 5272,Agricultural Labour,Male,26.0,Palnadu,Amaravathi,Enddroyi,,Open Area,BPL,9848213145.0
