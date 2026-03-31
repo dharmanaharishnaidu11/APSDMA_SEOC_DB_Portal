@@ -1,0 +1,56 @@
+[
+  {
+    "name": "SEOC_Staff_Registration",
+    "item_id": "b36ecbb6a0fa4f4e8673328d779e5622",
+    "url": "http://apsdmagis.ap.gov.in/gisserver/rest/services/Hosted/SEOC_Staff_Registration/FeatureServer",
+    "form_title": "SEOC - Staff Registration"
+  },
+  {
+    "name": "SEOC_Lightning_Deaths",
+    "item_id": "5404875609374ac3b10e4de53bf19b4a",
+    "url": "http://apsdmagis.ap.gov.in/gisserver/rest/services/Hosted/SEOC_Lightning_Deaths/FeatureServer",
+    "form_title": "SEOC - Lightning Death Report"
+  },
+  {
+    "name": "SEOC_Drowning_Incidents",
+    "item_id": "90f7155cc4e841e5a84bb0066930223b",
+    "url": "http://apsdmagis.ap.gov.in/gisserver/rest/services/Hosted/SEOC_Drowning_Incidents/FeatureServer",
+    "form_title": "SEOC - Drowning Incident Report"
+  },
+  {
+    "name": "SEOC_Flood_Damage",
+    "item_id": "7bfc92c5253e456ca1c4551154b692c2",
+    "url": "http://apsdmagis.ap.gov.in/gisserver/rest/services/Hosted/SEOC_Flood_Damage/FeatureServer",
+    "form_title": "SEOC - Flood Damage Report"
+  },
+  {
+    "name": "SEOC_Emergency_Calls",
+    "item_id": "b866f6ae39b9496481eab1fe77d84047",
+    "url": "http://apsdmagis.ap.gov.in/gisserver/rest/services/Hosted/SEOC_Emergency_Calls/FeatureServer",
+    "form_title": "SEOC - Emergency Calls (112/1070)"
+  },
+  {
+    "name": "SEOC_Rescue_Operations",
+    "item_id": "a7c8588197614ba8b0f53e485ccc392a",
+    "url": "http://apsdmagis.ap.gov.in/gisserver/rest/services/Hosted/SEOC_Rescue_Operations/FeatureServer",
+    "form_title": "SEOC - SDRF/NDRF Rescue Operation"
+  },
+  {
+    "name": "SEOC_HeatWave",
+    "item_id": "f3ab5d5759f54874b9bb89fb785af0af",
+    "url": "http://apsdmagis.ap.gov.in/gisserver/rest/services/Hosted/SEOC_HeatWave/FeatureServer",
+    "form_title": "SEOC - Heat Wave Monitoring"
+  },
+  {
+    "name": "SEOC_Reservoir_Levels",
+    "item_id": "8ed65eaaefa1476695b7ae8ba77d287d",
+    "url": "http://apsdmagis.ap.gov.in/gisserver/rest/services/Hosted/SEOC_Reservoir_Levels/FeatureServer",
+    "form_title": "SEOC - Reservoir / River Levels"
+  },
+  {
+    "name": "SEOC_DSR",
+    "item_id": "424f0f5c618c4b00acf94738b9a21aff",
+    "url": "http://apsdmagis.ap.gov.in/gisserver/rest/services/Hosted/SEOC_DSR/FeatureServer",
+    "form_title": "SEOC - Daily Situation Report"
+  }
+]

@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEOC Data Entry Portal — APSDMA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #1a365d;
+            --accent: #3182ce;
+            --success: #38a169;
+            --danger: #e53e3e;
+            --warning: #d69e2e;
+            --bg: #f0f4f8;
+            --card: #ffffff;
+            --border: #e2e8f0;
+            --text: #1a2332;
+            --muted: #718096;
+            --saffron: #FF9933;
+            --green: #138808;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); }
+
+        .tricolor { height: 4px; background: linear-gradient(90deg, var(--saffron) 33%, #fff 33% 66%, var(--green) 66%); }
+
+        .header {
+            background: linear-gradient(135deg, #0c2340, #1a365d);
+            color: #fff; padding: 16px 24px;
+            display: flex; align-items: center; gap: 16px;
+        }
+        .header img { height: 48px; filter: brightness(10); }
+        .header .title h1 { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 20px; font-weight: 800; }
+        .header .title p { font-size: 12px; opacity: .75; }
+        .header .user-info {
+            margin-left: auto; text-align: right; font-size: 12px;
+        }
+        .header .user-info .username { font-weight: 700; font-size: 14px; }
+        .header .user-info .role { opacity: .7; }
+        .header .btn-logout {
+            background: rgba(255,255,255,.15); border: 1px solid rgba(255,255,255,.3);
+            color: #fff; padding: 6px 14px; border-radius: 6px; font-size: 12px;
+            cursor: pointer; font-family: inherit; margin-left: 12px;
+        }
+        .header .btn-logout:hover { background: rgba(255,255,255,.25); }
+
+        .login-bar {
+            background: #fff; border-bottom: 1px solid var(--border);
+            padding: 12px 24px; display: flex; align-items: center; gap: 12px;
+        }
+        .login-bar input {
+            padding: 8px 12px; border: 1px solid var(--border); border-radius: 6px;
+            font-size: 14px; font-family: inherit;
+        }
+        .login-bar button {
+            padding: 8px 20px; background: var(--accent); color: #fff;
+            border: none; border-radius: 6px; font-size: 14px;
+            cursor: pointer; font-family: inherit; font-weight: 600;
+        }
+        .login-bar button:hover { background: #2b6cb0; }
+        .login-bar .error { color: var(--danger); font-size: 12px; }
+
+        .container { max-width: 1200px; margin: 0 auto; padding: 24px 16px; }
+
+        .section-title {
+            font-family: 'Plus Jakarta Sans', sans-serif; font-size: 18px;
+            font-weight: 800; color: var(--primary); margin-bottom: 16px;
+        }
+
+        .stats-bar {
+            display: flex; gap: 12px; margin-bottom: 24px; flex-wrap: wrap;
+        }
+        .stat {
+            background: var(--card); border: 1px solid var(--border);
+            border-radius: 10px; padding: 14px 20px; flex: 1; min-width: 140px;
+            text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,.04);
+        }
+        .stat .value { font-size: 28px; font-weight: 800; font-family: 'Plus Jakarta Sans', sans-serif; }
+        .stat .label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .5px; margin-top: 2px; }
+        .stat.pending .value { color: var(--warning); }
+        .stat.approved .value { color: var(--success); }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 16px;
+        }
+
+        .card {
+            background: var(--card); border: 1px solid var(--border);
+            border-radius: 12px; padding: 20px;
+            box-shadow: 0 1px 4px rgba(0,0,0,.06);
+            transition: transform .15s, box-shadow .15s;
+            position: relative; overflow: hidden;
+        }
+        .card:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,.1); }
+        .card .icon { font-size: 36px; margin-bottom: 10px; }
+        .card .card-title {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 16px; font-weight: 700; color: var(--primary);
+            margin-bottom: 4px;
+        }
+        .card .card-desc { font-size: 12px; color: var(--muted); margin-bottom: 14px; line-height: 1.4; }
+        .card .card-count {
+            font-size: 24px; font-weight: 800; color: var(--accent);
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+        .card .card-count-label { font-size: 11px; color: var(--muted); }
+        .card .badge {
+            position: absolute; top: 12px; right: 12px;
+            background: var(--warning); color: #fff;
+            font-size: 10px; font-weight: 700; padding: 3px 8px;
+            border-radius: 10px;
+        }
+        .card .actions { display: flex; gap: 8px; margin-top: 14px; }
+        .card .btn {
+            flex: 1; padding: 8px 12px; font-size: 12px; font-weight: 600;
+            border-radius: 6px; cursor: pointer; text-align: center;
+            text-decoration: none; font-family: inherit; border: none;
+            display: inline-block;
+        }
+        .btn-view { background: #edf2f7; color: var(--primary); }
+        .btn-view:hover { background: #e2e8f0; }
+        .btn-add { background: var(--accent); color: #fff; }
+        .btn-add:hover { background: #2b6cb0; }
+        .btn-approve { background: var(--success); color: #fff; }
+        .btn-approve:hover { background: #2f855a; }
+
+        .footer {
+            text-align: center; font-size: 11px; color: var(--muted);
+            padding: 24px; margin-top: 20px;
+        }
+
+        #login-section { display: block; }
+        #portal-section { display: none; }
+
+        @media (max-width: 600px) {
+            .grid { grid-template-columns: 1fr; }
+            .stats-bar { flex-direction: column; }
+            .header { flex-wrap: wrap; }
+        }
+    </style>
+</head>
+<body>
+<div class="tricolor"></div>
+<div class="header">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Emblem_of_India.svg/200px-Emblem_of_India.svg.png"
+         alt="Emblem" onerror="this.style.display='none'">
+    <div class="title">
+        <p>Government of Andhra Pradesh</p>
+        <h1>SEOC Data Entry Portal</h1>
+        <p>Andhra Pradesh State Disaster Management Authority</p>
+    </div>
+    <div class="user-info" id="user-info" style="display:none;">
+        <div class="username" id="display-username"></div>
+        <div class="role" id="display-role"></div>
+        <button class="btn-logout" onclick="logout()">Logout</button>
+    </div>
+</div>
+
+<!-- Login -->
+<div id="login-section">
+    <div class="login-bar">
+        <input type="text" id="inp-user" placeholder="Username" value="">
+        <input type="password" id="inp-pass" placeholder="Password" value="">
+        <button onclick="login()">Sign In</button>
+        <span class="error" id="login-error"></span>
+    </div>
+</div>
+
+<!-- Portal Content -->
+<div id="portal-section">
+    <div class="container">
+        <div class="stats-bar" id="stats-bar"></div>
+
+        <div class="section-title">Disaster Modules</div>
+        <div class="grid" id="modules-grid"></div>
+
+        <div style="margin-top:24px;">
+            <div class="section-title">Administration</div>
+            <div class="grid" id="admin-grid"></div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    &copy; 2026 APSDMA, Government of Andhra Pradesh. SEOC Data Entry Portal v1.0
+</div>
+
+<script>
+(function() {
+    var PORTAL = "https://apsdmagis.ap.gov.in/gisportal";
+    var SERVER = "https://apsdmagis.ap.gov.in/gisserver/rest/services";
+
+    var MODULES = [
+        {
+            key: "lightning", icon: "\u26A1", title: "Lightning Deaths",
+            desc: "Lightning/thunderbolt death reports with victim details, ex-gratia tracking",
+            formId: "97534e1cd6624cd48a0a07006b1f0dd4",
+            serviceUrl: SERVER + "/Hosted/SEOC_Lightning_Deaths/FeatureServer/0",
+            color: "#d69e2e"
+        },
+        {
+            key: "drowning", icon: "\uD83C\uDF0A", title: "Drowning Incidents",
+            desc: "Drowning incident reports with victim details and rescue information",
+            formId: "ce6f0215de05416dab8c56e5d8e5bd0f",
+            serviceUrl: SERVER + "/Hosted/SEOC_Drowning_Incidents/FeatureServer/0",
+            color: "#3182ce"
+        },
+        {
+            key: "floods", icon: "\uD83C\uDF27\uFE0F", title: "Flood Damage",
+            desc: "Flood damage reports \u2014 houses, infrastructure, crops, relief operations",
+            formId: "a6168fd70cc84ee89a4fc905ee0003f1",
+            serviceUrl: SERVER + "/Hosted/SEOC_Flood_Damage/FeatureServer/0",
+            color: "#2b6cb0"
+        },
+        {
+            key: "calls", icon: "\uD83D\uDCDE", title: "Emergency Calls (112/1070)",
+            desc: "Emergency call log from 112 and 1070 disaster hotlines",
+            formId: "4f5ab52fc5ee4d6187439cf905e03c5e",
+            serviceUrl: SERVER + "/Hosted/SEOC_Emergency_Calls/FeatureServer/0",
+            color: "#e53e3e"
+        },
+        {
+            key: "rescue", icon: "\uD83D\uDE81", title: "SDRF / NDRF Rescue",
+            desc: "Search and rescue operation details for SDRF, NDRF, Navy, Coast Guard",
+            formId: "144d8a53e76d422aa3cac6c17219c767",
+            serviceUrl: SERVER + "/Hosted/SEOC_Rescue_Operations/FeatureServer/0",
+            color: "#38a169"
+        },
+        {
+            key: "heatwave", icon: "\uD83C\uDF21\uFE0F", title: "Heat Wave Monitoring",
+            desc: "Temperature and humidity monitoring for heat wave alerts",
+            formId: "0145106121aa41e2b8a7d2d2cf4c8c43",
+            serviceUrl: SERVER + "/Hosted/SEOC_HeatWave/FeatureServer/0",
+            color: "#dd6b20"
+        },
+        {
+            key: "reservoir", icon: "\uD83D\uDCA7", title: "Reservoir / River Levels",
+            desc: "Dam and river water level monitoring with flood warning levels",
+            formId: "3d8bd16e4a924cc5b9537a639e4d70ee",
+            serviceUrl: SERVER + "/Hosted/SEOC_Reservoir_Levels/FeatureServer/0",
+            color: "#319795"
+        },
+        {
+            key: "dsr", icon: "\uD83D\uDCCB", title: "Daily Situation Report",
+            desc: "Multi-disaster daily situation report for NDMA submission",
+            formId: "062ab9df26a34706abdb22ad2b44e3a3",
+            serviceUrl: SERVER + "/Hosted/SEOC_DSR/FeatureServer/0",
+            color: "#805ad5"
+        }
+    ];
+
+    var ADMIN_MODULES = [
+        {
+            key: "staff", icon: "\uD83D\uDC64", title: "Staff Registration",
+            desc: "Register APSDMA staff and assign portal roles",
+            formId: "a01c4f7327314257bac6bd966ca2c420",
+            serviceUrl: SERVER + "/Hosted/SEOC_Staff_Registration/FeatureServer/0",
+            color: "#4a5568"
+        }
+    ];
+
+    var token = null;
+    var userInfo = null;
+
+    function login() {
+        var user = document.getElementById("inp-user").value.trim();
+        var pass = document.getElementById("inp-pass").value;
+        document.getElementById("login-error").textContent = "";
+
+        fetch(PORTAL + "/sharing/rest/generateToken", {
+            method: "POST",
+            headers: {"Content-Type": "application/x-www-form-urlencoded"},
+            body: "username=" + encodeURIComponent(user) +
+                  "&password=" + encodeURIComponent(pass) +
+                  "&client=referer&referer=" + encodeURIComponent(location.href) +
+                  "&f=json"
+        })
+        .then(function(r) { return r.json(); })
+        .then(function(d) {
+            if (d.token) {
+                token = d.token;
+                userInfo = { username: user };
+                determineRole(user);
+                document.getElementById("login-section").style.display = "none";
+                document.getElementById("portal-section").style.display = "block";
+                document.getElementById("user-info").style.display = "block";
+                document.getElementById("display-username").textContent = user;
+                renderPortal();
+            } else {
+                document.getElementById("login-error").textContent = "Invalid credentials";
+            }
+        })
+        .catch(function() {
+            document.getElementById("login-error").textContent = "Connection error";
+        });
+    }
+
+    function determineRole(username) {
+        if (username.indexOf("admin") >= 0) userInfo.role = "Admin";
+        else if (username.indexOf("incharge") >= 0) userInfo.role = "SEOC Incharge";
+        else if (username.indexOf("do") >= 0 && username.indexOf("deo") < 0) userInfo.role = "Duty Officer";
+        else if (username.indexOf("deo") >= 0) userInfo.role = "DEO";
+        else userInfo.role = "User";
+        document.getElementById("display-role").textContent = userInfo.role;
+    }
+
+    function logout() {
+        token = null;
+        userInfo = null;
+        document.getElementById("login-section").style.display = "block";
+        document.getElementById("portal-section").style.display = "none";
+        document.getElementById("user-info").style.display = "none";
+        document.getElementById("inp-pass").value = "";
+    }
+
+    function queryCount(url, where) {
+        return fetch(url + "/query?where=" + encodeURIComponent(where) + "&returnCountOnly=true&f=json&token=" + token)
+            .then(function(r) { return r.json(); })
+            .then(function(d) { return d.count || 0; })
+            .catch(function() { return 0; });
+    }
+
+    function renderPortal() {
+        var grid = document.getElementById("modules-grid");
+        var adminGrid = document.getElementById("admin-grid");
+        var statsBar = document.getElementById("stats-bar");
+        grid.innerHTML = "";
+        adminGrid.innerHTML = "";
+        statsBar.innerHTML = "";
+
+        var totalRecords = 0;
+        var totalPending = 0;
+
+        var allModules = MODULES.concat(ADMIN_MODULES);
+        var promises = [];
+
+        allModules.forEach(function(mod) {
+            var p1 = queryCount(mod.serviceUrl, "1=1");
+            var p2 = queryCount(mod.serviceUrl, "entry_status='Pending'");
+            promises.push(Promise.all([p1, p2]).then(function(counts) {
+                mod._total = counts[0];
+                mod._pending = counts[1];
+                totalRecords += counts[0];
+                totalPending += counts[1];
+            }));
+        });
+
+        Promise.all(promises).then(function() {
+            // Stats bar
+            statsBar.innerHTML =
+                '<div class="stat"><div class="value">' + totalRecords + '</div><div class="label">Total Records</div></div>' +
+                '<div class="stat pending"><div class="value">' + totalPending + '</div><div class="label">Pending Approval</div></div>' +
+                '<div class="stat approved"><div class="value">' + (totalRecords - totalPending) + '</div><div class="label">Approved / Migrated</div></div>' +
+                '<div class="stat"><div class="value">' + MODULES.length + '</div><div class="label">Active Modules</div></div>';
+
+            // Module cards
+            MODULES.forEach(function(mod) { grid.appendChild(createCard(mod)); });
+            ADMIN_MODULES.forEach(function(mod) { adminGrid.appendChild(createCard(mod)); });
+        });
+    }
+
+    function createCard(mod) {
+        var card = document.createElement("div");
+        card.className = "card";
+
+        var badge = "";
+        var isDO = userInfo && (userInfo.role === "Duty Officer" || userInfo.role === "SEOC Incharge" || userInfo.role === "Admin");
+        if (mod._pending > 0 && isDO) {
+            badge = '<div class="badge">' + mod._pending + ' Pending</div>';
+        }
+
+        var approveBtn = "";
+        if (isDO && mod._pending > 0) {
+            approveBtn = '<a class="btn btn-approve" href="' + PORTAL + '/home/item.html?id=' + mod.formId + '" target="_blank">Review</a>';
+        }
+
+        var surveyUrl = PORTAL + "/apps/survey123/?itemId=" + mod.formId + "&token=" + token;
+        var viewUrl = mod.serviceUrl + "/query?where=1%3D1&outFields=*&f=html&token=" + token;
+
+        card.innerHTML =
+            badge +
+            '<div class="icon">' + mod.icon + '</div>' +
+            '<div class="card-title">' + mod.title + '</div>' +
+            '<div class="card-desc">' + mod.desc + '</div>' +
+            '<div class="card-count">' + (mod._total || 0) + '</div>' +
+            '<div class="card-count-label">records</div>' +
+            '<div class="actions">' +
+                '<a class="btn btn-view" href="' + viewUrl + '" target="_blank">View Data</a>' +
+                '<a class="btn btn-add" href="' + surveyUrl + '" target="_blank">+ Add New</a>' +
+                approveBtn +
+            '</div>';
+
+        card.style.borderLeft = "4px solid " + mod.color;
+        return card;
+    }
+
+    // Enter key to login
+    document.getElementById("inp-pass").addEventListener("keypress", function(e) {
+        if (e.key === "Enter") login();
+    });
+    document.getElementById("inp-user").addEventListener("keypress", function(e) {
+        if (e.key === "Enter") document.getElementById("inp-pass").focus();
+    });
+
+    // Expose login/logout globally
+    window.login = login;
+    window.logout = logout;
+})();
+</script>
+</body>
+</html>
