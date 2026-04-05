@@ -7,12 +7,12 @@ os.environ['PYTHONIOENCODING'] = 'utf-8'
 if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8')
 
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from _config_loader import load_config
+
 import psycopg2
 
-conn = psycopg2.connect(
-    host='192.168.9.35', port=5432, dbname='apsdma_2026',
-    user='sde', password='apsdma#123', connect_timeout=10
-)
+conn = psycopg2.connect(**load_config()['database'])
 conn.autocommit = True
 cur = conn.cursor()
 

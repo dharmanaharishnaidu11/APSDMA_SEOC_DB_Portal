@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEOC Data Entry Portal | APSDMA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://js.arcgis.com/4.28/esri/themes/light/main.css">
+    <link rel="stylesheet" href="css/seoc-theme.css?v=11">
+</head>
+<body>
+
+<!-- ── Login Overlay ── -->
+<div class="login-overlay" id="login-overlay">
+    <div class="login-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Emblem_of_India.svg/200px-Emblem_of_India.svg.png"
+             alt="Emblem" class="login-emblem" onerror="this.style.display='none'">
+        <h2>SEOC Data Entry Portal</h2>
+        <p class="login-subtitle">Andhra Pradesh State Disaster Management Authority</p>
+        <input type="text" id="login-user" placeholder="Username" autocomplete="username">
+        <input type="password" id="login-pass" placeholder="Password" autocomplete="current-password">
+        <button class="btn-login" id="btn-login" onclick="doLogin()">Sign In</button>
+        <div class="login-error" id="login-error"></div>
+    </div>
+    <div class="login-footer">&copy; 2026 APSDMA, Government of Andhra Pradesh</div>
+</div>
+
+<!-- ── App Shell (hidden until login) ── -->
+<div id="app-shell" style="display:none; height:100vh; display:none; flex-direction:column;">
+
+    <!-- Tricolor -->
+    <div class="tricolor"></div>
+
+    <!-- Header -->
+    <div class="header">
+        <button class="btn-hamburger" onclick="toggleSidebar()">&equiv;</button>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Emblem_of_India.svg/200px-Emblem_of_India.svg.png"
+             alt="Emblem" class="header-emblem" onerror="this.style.display='none'">
+        <div class="header-title">
+            <h1>SEOC Data Entry Portal</h1>
+            <p>APSDMA &middot; Government of Andhra Pradesh</p>
+        </div>
+        <div class="header-user">
+            <div>
+                <div class="user-name" id="hdr-username"></div>
+                <div class="user-role" id="hdr-role"></div>
+            </div>
+            <button class="btn-logout" onclick="SEOC.auth.logout()">Logout</button>
+        </div>
+    </div>
+
+    <!-- Layout: Sidebar + Content -->
+    <div class="app-layout">
+
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar" id="sidebar">
+            <div class="nav-section">Overview</div>
+            <a class="nav-item active" href="#dashboard">
+                <span class="nav-icon">&olarr;</span> Dashboard
+            </a>
+
+            <div class="nav-divider"></div>
+            <div class="nav-section">Disaster Modules</div>
+            <div id="nav-modules"></div>
+
+            <div class="nav-divider" id="nav-review-divider" style="display:none"></div>
+            <div class="nav-section" id="nav-review-section" style="display:none">Review</div>
+            <a class="nav-item" href="#approvals" id="nav-approvals" style="display:none">
+                <span class="nav-icon">&#9745;</span> Approval Queue
+                <span class="nav-badge" id="nav-pending-count" style="display:none">0</span>
+            </a>
+
+            <div class="nav-divider" id="nav-admin-divider" style="display:none"></div>
+            <div class="nav-section" id="nav-admin-section" style="display:none">Administration</div>
+            <a class="nav-item" href="#admin" id="nav-admin" style="display:none">
+                <span class="nav-icon">&#9881;</span> Admin Panel
+            </a>
+            <a class="nav-item" href="#module/staff" id="nav-staff" style="display:none">
+                <span class="nav-icon">&#128100;</span> Staff Registration
+            </a>
+        </nav>
+
+        <!-- Main Content Area -->
+        <main class="main-content" id="main-content">
+            <div class="page-loading"><div class="spinner"></div></div>
+        </main>
+    </div>
+</div>
+
+<!-- ── Scripts ── -->
+<script src="https://js.arcgis.com/4.28/"></script>
+<script src="lib/chart.min.js"></script>
+<script src="lib/xlsx.min.js"></script>
+<script src="js/seoc-config.js?v=11"></script>
+<script src="js/seoc-auth.js?v=11"></script>
+<script src="js/seoc-utils.js?v=11"></script>
+<script src="js/seoc-router.js?v=11"></script>
+<script src="js/seoc-forms.js?v=11"></script>
+<script src="js/seoc-dashboard.js?v=11"></script>
+<script src="js/seoc-module.js?v=11"></script>
+<script src="js/seoc-approval.js?v=11"></script>
+<script src="js/seoc-admin.js?v=11"></script>
+
+<script>
+/* ── Boot ── */
+(function() {
+    // Populate sidebar module nav items
+    var navHtml = "";
+    SEOC.modules.forEach(function(mod) {
+        navHtml += '<a class="nav-item" href="#module/' + mod.key + '">' +
+            '<span class="nav-icon">' + mod.icon + '</span> ' + mod.title +
+            '</a>';
+    });
+    document.getElementById("nav-modules").innerHTML = navHtml;
+
+    // Enter key listeners
+    document.getElementById("login-pass").addEventListener("keypress", function(e) {
+        if (e.key === "Enter") doLogin();
+    });
+    document.getElementById("login-user").addEventListener("keypress", function(e) {
+        if (e.key === "Enter") document.getElementById("login-pass").focus();
+    });
+
+    // Try restore session
+    if (SEOC.auth.restoreSession()) {
+        onLoginSuccess(SEOC.auth.getUser());
+    }
+})();
+
+function doLogin() {
+    var btn = document.getElementById("btn-login");
+    var errEl = document.getElementById("login-error");
+    var user = document.getElementById("login-user").value.trim();
+    var pass = document.getElementById("login-pass").value;
+
+    if (!user || !pass) { errEl.textContent = "Enter username and password"; return; }
+
+    btn.disabled = true;
+    btn.textContent = "Signing in...";
+    errEl.textContent = "";
+
+    SEOC.auth.login(user, pass)
+        .then(function(userInfo) {
+            onLoginSuccess(userInfo);
+        })
+        .catch(function(err) {
+            errEl.textContent = err.message || "Login failed";
+            btn.disabled = false;
+            btn.textContent = "Sign In";
+        });
+}
+
+function onLoginSuccess(userInfo) {
+    // Hide login, show app
+    document.getElementById("login-overlay").style.display = "none";
+    var shell = document.getElementById("app-shell");
+    shell.style.display = "flex";
+    shell.style.flexDirection = "column";
+
+    // Set header user info
+    document.getElementById("hdr-username").textContent = userInfo.fullName;
+    document.getElementById("hdr-role").textContent = userInfo.role;
+
+    // Role-based nav visibility
+    if (SEOC.auth.canApprove()) {
+        document.getElementById("nav-review-divider").style.display = "";
+        document.getElementById("nav-review-section").style.display = "";
+        document.getElementById("nav-approvals").style.display = "";
+    }
+    if (SEOC.auth.canAdmin()) {
+        document.getElementById("nav-admin-divider").style.display = "";
+        document.getElementById("nav-admin-section").style.display = "";
+        document.getElementById("nav-admin").style.display = "";
+        document.getElementById("nav-staff").style.display = "";
+    }
+
+    // Register token with ArcGIS IdentityManager
+    require(["esri/identity/IdentityManager"], function(IdentityManager) {
+        SEOC.auth.registerWithIdentityManager(IdentityManager);
+    });
+
+    // Register routes and start router
+    SEOC.router.register("dashboard", SEOC.dashboard.render);
+    SEOC.router.register("module", SEOC.module.render);
+    SEOC.router.register("approvals", SEOC.approval.render);
+    SEOC.router.register("admin", SEOC.admin.render);
+    SEOC.router.init();
+}
+
+function toggleSidebar() {
+    document.getElementById("sidebar").classList.toggle("open");
+}
+
+// Utils (toast, queryCount, etc.) loaded from seoc-utils.js
+</script>
+
+</body>
+</html>

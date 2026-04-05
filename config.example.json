@@ -1,0 +1,15 @@
+{
+  "database": {
+    "host": "YOUR_DB_HOST",
+    "port": 5432,
+    "dbname": "apsdma_2026",
+    "user": "YOUR_DB_USER",
+    "password": "YOUR_DB_PASSWORD",
+    "connect_timeout": 10
+  },
+  "arcgis_portal": {
+    "url": "https://your-portal.example.com/gisportal",
+    "username": "YOUR_PORTAL_ADMIN",
+    "password": "YOUR_PORTAL_PASSWORD"
+  }
+}

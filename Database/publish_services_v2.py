@@ -8,15 +8,19 @@ if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8')
 warnings.filterwarnings('ignore')
 
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from _config_loader import load_config
+
 from arcgis.gis import GIS
 from arcgis.features import FeatureLayerCollection
 
-PORTAL = 'https://apsdmagis.ap.gov.in/gisportal'
-gis = GIS(PORTAL, 'portaladmin', '9494501235Nn@', verify_cert=False)
+_cfg = load_config()['arcgis_portal']
+gis = GIS(_cfg['url'], _cfg['username'], _cfg['password'], verify_cert=False)
 print(f"Connected as: {gis.properties.user.username}")
 
-form_items = json.load(open('h:/SEOC_DB_PORTAL/portal_form_items.json'))
-group_ids = json.load(open('h:/SEOC_DB_PORTAL/portal_groups.json'))
+_repo = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'Portal_Config'))
+form_items = json.load(open(os.path.join(_repo, 'portal_form_items.json')))
+group_ids = json.load(open(os.path.join(_repo, 'portal_groups.json')))
 all_groups = list(group_ids.values())
 
 EXTENT = {'xmin': 76.5, 'ymin': 12.5, 'xmax': 85.0, 'ymax': 20.0, 'spatialReference': {'wkid': 4326}}

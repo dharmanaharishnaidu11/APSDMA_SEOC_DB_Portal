@@ -10,13 +10,15 @@ os.environ['PYTHONIOENCODING'] = 'utf-8'
 if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8')
 
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from _config_loader import load_config
+
 import openpyxl
 from openpyxl.styles import Font, PatternFill
 import psycopg2
 
 # ---- DB Connection ----
-conn = psycopg2.connect(host='192.168.9.35', port=5432, dbname='apsdma_2026',
-                        user='sde', password='apsdma#123', connect_timeout=10)
+conn = psycopg2.connect(**load_config()['database'])
 cur = conn.cursor()
 cur.execute('SELECT district_lgd, district_name FROM admin.ap_districts_28 ORDER BY district_name')
 DISTRICTS = cur.fetchall()
@@ -25,7 +27,7 @@ MANDALS = cur.fetchall()
 conn.close()
 print(f"Loaded {len(DISTRICTS)} districts, {len(MANDALS)} mandals from DB")
 
-OUT_DIR = 'h:/SEOC_DB_PORTAL/SEOC_PORTAL'
+OUT_DIR = os.path.dirname(os.path.abspath(__file__))
 os.makedirs(OUT_DIR, exist_ok=True)
 
 # Common choice lists used across forms
